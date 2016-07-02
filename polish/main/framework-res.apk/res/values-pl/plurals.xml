@@ -107,20 +107,4 @@
         <item quantity="other">Przez %d godz.</item>
         <item quantity="one">Przez 1 godz.</item>
     </plurals>
-    <plurals name="pattern_day">
-        <item quantity="other">" Dni "</item>
-        <item quantity="one">" Dzień "</item>
-    </plurals>
-    <plurals name="pattern_hour">
-        <item quantity="other">" Godziny "</item>
-        <item quantity="one">" Godzina "</item>
-    </plurals>
-    <plurals name="pattern_minute">
-        <item quantity="other">" Minuty "</item>
-        <item quantity="one">" Minuta "</item>
-    </plurals>
-    <plurals name="pattern_second">
-        <item quantity="other">" Sekundy "</item>
-        <item quantity="one">" Sekunda "</item>
-    </plurals>
 </resources>
