@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<resources>
+  <string-array name="number_opt">
+    <item>Dodaj kontakt</item>
+    <item>Dodaj do istniejącego kontaktu</item>
+    <item>Usuń</item>
+    <item>Historia połączeń na górze</item>
+    <item>Dodaj do czarnej listy</item>
+    <item>Mark</item>
+  </string-array>
+  <string-array name="markLables">
+    <item>Scammer</item>
+    <item>Agent</item>
+    <item>Marketing</item>
+    <item>Delivery</item>
+    <item>Mail</item>
+    <item>Custom</item>
+  </string-array>
+  <string-array name="labelOrders">
+    <item>a</item>
+    <item>b</item>
+    <item>c</item>
+    <item>d</item>
+    <item>e</item>
+    <item>f</item>
+  </string-array>
+  <string-array name="markLables_for_yellopage">
+    <item>Scammer</item>
+    <item>Agent</item>
+    <item>Marketing</item>
+    <item>Delivery</item>
+    <item>Express</item>
+    <item>Custom</item>
+  </string-array>
+  <string-array name="blackItmes">
+    <item>Blokowanie połączeń i wiadomości</item>
+    <item>Blokowanie połączeń</item>
+    <item>Blokowanie wiadomości</item>
+  </string-array>
+  <string-array name="leBlockPrimaryItmes">
+    <item>Wybierz co zablokować</item>
+    <item>Usuń z czarnej listy</item>
+  </string-array>
+  <array name="letter_tile_colors">
+    <item>#ffdb4437</item>
+    <item>#ffe91e63</item>
+    <item>#ff9c27b0</item>
+    <item>#ff673ab7</item>
+    <item>#ff3f51b5</item>
+    <item>#ff4285f4</item>
+    <item>#ff039be5</item>
+    <item>#ff0097a7</item>
+    <item>#ff009688</item>
+    <item>#ff0f9d58</item>
+    <item>#ff689f38</item>
+    <item>#ffef6c00</item>
+    <item>#ffff5722</item>
+    <item>#ff757575</item>
+  </array>
+  <array name="letter_tile_colors_dark">
+    <item>#ffc53929</item>
+    <item>#ffc2185b</item>
+    <item>#ff7b1fa2</item>
+    <item>#ff512da8</item>
+    <item>#ff303f9f</item>
+    <item>#ff3367d6</item>
+    <item>#ff0277bd</item>
+    <item>#ff006064</item>
+    <item>#ff00796b</item>
+    <item>#ff0b8043</item>
+    <item>#ff33691e</item>
+    <item>#ffe65100</item>
+    <item>#ffe64a19</item>
+    <item>#ff424242</item>
+  </array>
+  <string-array name="le_group_operation_list">
+    <item>Wiadomość grupowa</item>
+    <item>Dzwonki</item>
+    <item>Więcej</item>
+  </string-array>
+  <string-array name="otherLabels">
+    <item>Organizacja</item>
+    <item>Notatka</item>
+  </string-array>
+</resources>

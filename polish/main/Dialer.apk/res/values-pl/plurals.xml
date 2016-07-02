@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<resources>
+  <plurals name="duration_seconds">
+    <item quantity="other">%d seconds</item>
+    <item quantity="one">1 second</item>
+  </plurals>
+  <plurals name="duration_minutes">
+    <item quantity="other">%d minutes</item>
+    <item quantity="one">1 minute</item>
+  </plurals>
+  <plurals name="duration_hours">
+    <item quantity="other">%d hours</item>
+    <item quantity="one">1 hour</item>
+  </plurals>
+  <plurals name="searchFoundCalllogs">
+    <item quantity="other">Liczba dzienników połączeń: %d</item>
+    <item quantity="one">1 dziennik połączeń</item>
+  </plurals>
+  <plurals name="searchFoundContacts">
+    <item quantity="other">Znaleziono: %d</item>
+    <item quantity="one">Znaleziono: 1</item>
+  </plurals>
+  <plurals name="listTotalAllContacts">
+    <item quantity="other">Liczba kontaktów: %d</item>
+    <item quantity="one">Liczba kontaktów: 1</item>
+  </plurals>
+  <plurals name="rington_count">
+    <item quantity="other">Dzwoniono %s razy</item>
+    <item quantity="one">Dzwoniono %s raz</item>
+  </plurals>
+  <plurals name="contactsDeleteTip">
+    <item quantity="other">Czy na pewno chcesz usunąć %s kontakty</item>
+    <item quantity="one">Czy na pewno chcesz usunąć %s kontakt</item>
+  </plurals>
+  <plurals name="add_to_group_done_success_tip">
+    <item quantity="other">Kontakty dodane</item>
+    <item quantity="one">Kontakt dodany</item>
+  </plurals>
+  <plurals name="import_from_vcard_success">
+    <item quantity="other">Kontakty zaimportowane pomyślnie</item>
+    <item quantity="one">Kontakt zaimportowany pomyślnie</item>
+  </plurals>
+  <plurals name="notification_voicemail_title">
+    <item quantity="other">Wiadomości głosowe: %1$d</item>
+    <item quantity="one">Poczta głosowa</item>
+  </plurals>
+  <plurals name="count_mult_mode">
+    <item quantity="other">%d kontakty wybrane</item>
+    <item quantity="one">1 kontakt wybrany</item>
+  </plurals>
+</resources>

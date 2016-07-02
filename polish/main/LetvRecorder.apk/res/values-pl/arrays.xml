@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<resources>
+  <integer-array name="high">
+    <item>2</item>
+    <item>2</item>
+    <item>128000</item>
+    <item>48000</item>
+    <item>4</item>
+  </integer-array>
+  <integer-array name="standard">
+    <item>2</item>
+    <item>2</item>
+    <item>48000</item>
+    <item>32000</item>
+    <item>4</item>
+  </integer-array>
+  <integer-array name="low">
+    <item>1</item>
+    <item>1</item>
+    <item>12200</item>
+    <item>8000</item>
+    <item>3</item>
+  </integer-array>
+  <string-array name="scene_entries">
+    <item>Nagrywanie głosu</item>
+    <item>Nagrywanie muzyki</item>
+  </string-array>
+  <string-array name="x5_mic_scene_entries">
+    <item>Normal</item>
+    <item>Interview</item>
+    <item>Meeting</item>
+  </string-array>
+  <string-array name="x5_mic_scene_entries_value">
+    <item>NORMAL</item>
+    <item>INTERVIEW</item>
+    <item>CONFERENCE</item>
+  </string-array>
+  <string-array name="non_x5_mic_scene_entries">
+    <item>Normal</item>
+    <item>Interview</item>
+  </string-array>
+  <string-array name="non_x5_mic_scene_entries_value">
+    <item>NORMAL</item>
+    <item>INTERVIEW</item>
+  </string-array>
+  <string-array name="scene_entries_value">
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+  <string-array name="audio_qulity_entries">
+    <item>Wysoka jakość</item>
+    <item>Standardowa jakość</item>
+    <item>Niska jakość</item>
+  </string-array>
+  <string-array name="audio_qulity_entries_des">
+    <item>Wysokiej jakości nagrania zostaną zapisane w formacie AAC</item>
+    <item>Standardowej jakości nagrania zostaną zapisane w formacie AAC</item>
+    <item>Niskiej jakości nagrania zostaną zapisane w formacie amr</item>
+  </string-array>
+  <string-array name="audio_qulity_value">
+    <item>3</item>
+    <item>2</item>
+    <item>1</item>
+  </string-array>
+</resources>

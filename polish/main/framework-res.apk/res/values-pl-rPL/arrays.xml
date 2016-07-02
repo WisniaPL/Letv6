@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<resources>
+  <string-array name="emailAddressTypes">
+    <item>Dom</item>
+    <item>Praca</item>
+    <item>Inne</item>
+    <item>Niestandardowy</item>
+  </string-array>
+  <string-array name="imProtocols">
+    <item>AIM</item>
+    <item>Windows Live</item>
+    <item>Yahoo</item>
+    <item>Skype</item>
+    <item>QQ</item>
+    <item>Google Talk</item>
+    <item>ICQ</item>
+    <item>Jabber</item>
+  </string-array>
+  <string-array name="organizationTypes">
+    <item>Praca</item>
+    <item>Inne</item>
+    <item>Niestandardowy</item>
+  </string-array>
+  <string-array name="phoneTypes">
+    <item>Dom</item>
+    <item>Komórka</item>
+    <item>Praca</item>
+    <item>Faks w pracy</item>
+    <item>Faks domowy</item>
+    <item>Pager</item>
+    <item>Inny</item>
+    <item>Niestandardowy</item>
+  </string-array>
+  <string-array name="postalAddressTypes">
+    <item>Dom</item>
+    <item>Praca</item>
+    <item>Inny</item>
+    <item>Niestandardowy</item>
+  </string-array>
+  <string-array name="config_globalActionsList">
+    <item>zasilanie</item>
+    <item>raport o błędach</item>
+    <item>użytkownicy</item>
+  </string-array>
+  <array name="common_nicknames"/>
+  <string-array name="imAddressTypes">
+    <item>Dom</item>
+    <item>Praca</item>
+    <item>Inne</item>
+    <item>Niestandardowy</item>
+  </string-array>
+  <string-array name="le_months_en">
+    <item>Sty</item>
+    <item>Lut</item>
+    <item>Mar</item>
+    <item>Kwi</item>
+    <item>Maj</item>
+    <item>Cze</item>
+    <item>Lip</item>
+    <item>Sie</item>
+    <item>Wrz</item>
+    <item>Paź</item>
+    <item>Lis</item>
+    <item>Gru</item>
+  </string-array>
+  <string-array name="le_url_phone_list">
+    <item>Nawiąż połączenie</item>
+    <item>Wyślij wiadomość</item>
+    <item>Kopiuj numer</item>
+    <item>Zapisz jako nowy</item>
+    <item>Zapisz istniejący</item>
+  </string-array>
+  <string-array name="le_url_phone_list_with_exists_contact">
+    <item>Połącz</item>
+    <item>Wyślij wiadomość</item>
+    <item>Kopiuj numer</item>
+    <item>Pokaż kontakt: %s</item>
+  </string-array>
+  <string-array name="le_url_email_list">
+    <item>Kopiuj email</item>
+    <item>Wyślij email</item>
+    <item>Dodaj do kontaktów</item>
+  </string-array>
+  <string-array name="le_url_web_list">
+    <item>Kopiuj</item>
+    <item>Otwórz</item>
+    <item>Zapisz</item>
+  </string-array>
+</resources>

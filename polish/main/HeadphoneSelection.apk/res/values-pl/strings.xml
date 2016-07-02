@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hp_selection_strings_app_name_txt">Wybór słuchawek</string>
+    <string name="hp_selection_strings_maker_sony_txt">Sony</string>
+    <string name="hp_selection_strings_maker_sony_nc_txt">Sony — zestaw słuch. elim. hałas</string>
+    <string name="hp_selection_strings_maker_sony_nc_walkman_txt">Sony — zestaw słuchawkowy elim. hałas do urządzeń Walkman</string>
+    <string name="hp_selection_strings_maker_sony_nc_xperia_txt">Sony — zestaw słuchawkowy eliminujący hałas do urz. Xperia™</string>
+    <string name="hp_selection_strings_val_default_txt">Ogólne</string>
+    <string name="hp_selection_strings_notification_select_headphones_title_txt">Słuchawki podłączone</string>
+    <string name="hp_selection_strings_notification_select_headphones_desc_txt">Wybierz słuchawki z eliminacją hałasu</string>
+    <string name="hp_selection_strings_headphones_txt">Słuchawki</string>
+</resources>

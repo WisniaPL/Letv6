@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<resources>
+  <string name="app_label">Pobrane</string>
+  <string name="download_title_sorted_by_date">Pobierania - Sortowane po dacie</string>
+  <string name="download_title_sorted_by_size">Pobierania - Sortowane po rozmiarze</string>
+  <string name="no_downloads">Brak pobrań</string>
+  <string name="missing_title">Nieznany</string>
+  <string name="button_sort_by_size">Sortuj po rozmiarze</string>
+  <string name="button_sort_by_date">Sortuj po dacie</string>
+  <string name="download_queued">W kolejce</string>
+  <string name="download_running">W trakcie</string>
+  <string name="download_success">Ukończono</string>
+  <string name="download_error">Niepowodzenie</string>
+  <string name="dialog_title_not_available">Pobieranie nieudane</string>
+  <string name="dialog_failed_body">Czy chcesz ponowić pobieranie pliku później czy usunąć z kolejki?</string>
+  <string name="dialog_title_queued_body">Plik jeszcze niedostępny</string>
+  <string name="dialog_queued_body">Plik jest w kolejce do pobierania.</string>
+  <string name="dialog_file_missing_body">Pobrany plik nie może być znaleziony</string>
+  <string name="dialog_insufficient_space_on_external">Nie można ukończyć pobierania. Nie ma wystarczającej ilości miejsca na SD.</string>
+  <string name="dialog_insufficient_space_on_cache">Nie można ukończyć pobierania. Nie ma wystarczającej ilości miejsca w telefonie.</string>
+  <string name="dialog_cannot_resume">Pobieranie przerwane. Nie może być wznowione.</string>
+  <string name="dialog_file_already_exists">Nie można pobrać. Plik docelowy już istnieje.</string>
+  <string name="dialog_media_not_found">Nie można pobrać. SD jest niedostępna.</string>
+  <string name="download_no_application_title">Nie można otworzyć pliku</string>
+  <string name="remove_download">Usuń</string>
+  <string name="delete_download">Usuń</string>
+  <string name="keep_queued_download">Zatrzymaj</string>
+  <string name="cancel_running_download">Anuluj</string>
+  <string name="retry_download">Ponów</string>
+  <string name="deselect_all">Odznacz wszystko</string>
+  <string name="select_all">Zaznacz wszystko</string>
+  <string name="selected_count">Zaznaczonych %1$d z %2$d</string>
+  <string name="download_share_dialog">Udostępnij przez</string>
+</resources>
