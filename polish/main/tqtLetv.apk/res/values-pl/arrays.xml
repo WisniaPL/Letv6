@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<resources>
+  <string-array name="days_of_week_simple">
+    <item>Nie</item>
+    <item>Pon</item>
+    <item>Wto</item>
+    <item>Śro</item>
+    <item>Czw</item>
+    <item>Pią</item>
+    <item>Sob</item>
+  </string-array>
+  <string-array name="days_of_week_trend_bitmap">
+    <item>Sob</item>
+    <item>Nie</item>
+    <item>Pon</item>
+    <item>Wto</item>
+    <item>Śro</item>
+    <item>Czw</item>
+    <item>Pią</item>
+    <item>Sob</item>
+    <item>Wczoraj</item>
+    <item>Dzisiaj</item>
+  </string-array>
+  <string-array name="hot_chn_citys_code">
+    <item>CHXX0008</item>
+    <item>CHXX0116</item>
+    <item>CHXX0037</item>
+    <item>CHXX0120</item>
+    <item>CHXX0138</item>
+    <item>CHXX0099</item>
+    <item>CHXX0141</item>
+    <item>CHXX0016</item>
+    <item>CHXX0044</item>
+    <item>CHXX0165</item>
+    <item>CHXX0017</item>
+    <item>CHXX0119</item>
+    <item>CHXX0046</item>
+    <item>CHXX0013</item>
+    <item>WMXX1007</item>
+    <item>CHXX0019</item>
+    <item>CHXX0140</item>
+    <item>CHXX0507</item>
+    <item>CHXX0133</item>
+    <item>WMXX1016</item>
+    <item>WMXX1009</item>
+    <item>CHXX0049</item>
+    <item>CHXX0512</item>
+    <item>TWXX0021</item>
+    <item>USNY0996</item>
+    <item>JAXX0085</item>
+    <item>KSXX0037</item>
+    <item>FRXX0076</item>
+  </string-array>
+  <string-array name="hot_chn_citys_str">
+    <item>Beijing</item>
+    <item>Shanghai</item>
+    <item>Guangzhou</item>
+    <item>Shenzhen</item>
+    <item>Wuhan</item>
+    <item>Nanjing</item>
+    <item>"Xi'an"</item>
+    <item>Chengdu</item>
+    <item>Hangzhou</item>
+    <item>Zhengzhou</item>
+    <item>Chongqing</item>
+    <item>Shenyang</item>
+    <item>Harbin</item>
+    <item>Changsha</item>
+    <item>Suzhou</item>
+    <item>Dalian</item>
+    <item>Xiamen</item>
+    <item>Sanya</item>
+    <item>Tianjin</item>
+    <item>Ningbo</item>
+    <item>Wuxi</item>
+    <item>Hong Kong</item>
+    <item>Macao</item>
+    <item>Taipei</item>
+    <item>New York</item>
+    <item>Tokyo</item>
+    <item>Seoul</item>
+    <item>Paris</item>
+  </string-array>
+  <string-array name="hot_int_citys_code">
+    <item>JAXX0085</item>
+    <item>THXX0002</item>
+    <item>KSXX0037</item>
+    <item>SNXX0006</item>
+    <item>QAXX0003</item>
+    <item>IZXX0008</item>
+    <item>FRXX0076</item>
+    <item>RSXX0063</item>
+    <item>ITXX0042</item>
+    <item>GRXX0004</item>
+    <item>ITXX0085</item>
+    <item>GMXX0096</item>
+    <item>GMXX0007</item>
+    <item>PLXX0028</item>
+    <item>AUXX0025</item>
+    <item>UKXX0085</item>
+    <item>USNY0996</item>
+    <item>USDC0001</item>
+    <item>EIXX0014</item>
+    <item>CAXX0343</item>
+    <item>USCA0987</item>
+    <item>CAXX0504</item>
+    <item>CAXX0518</item>
+    <item>MXQR0138</item>
+    <item>EGXX0004</item>
+    <item>SGXX0001</item>
+    <item>ASXX0112</item>
+    <item>更多</item>
+  </string-array>
+  <string-array name="hot_int_citys_str">
+    <item>Tokyo</item>
+    <item>Bangkok</item>
+    <item>Seoul</item>
+    <item>Singapore</item>
+    <item>Doha</item>
+    <item>Baghdad</item>
+    <item>Paris</item>
+    <item>Moscow</item>
+    <item>Milan</item>
+    <item>Athens</item>
+    <item>Venice</item>
+    <item>Nuremberg</item>
+    <item>Berlin</item>
+    <item>Warsaw</item>
+    <item>Vienna</item>
+    <item>London</item>
+    <item>New York</item>
+    <item>Washington</item>
+    <item>Dublin</item>
+    <item>Ottawa</item>
+    <item>San Francisco</item>
+    <item>Toronto</item>
+    <item>Vancouver</item>
+    <item>Cancun</item>
+    <item>Cairo</item>
+    <item>Dakar</item>
+    <item>Sydney</item>
+    <item>Więcej</item>
+  </string-array>
+  <string-array name="wi_strs">
+    <item>Tornado</item>
+    <item>Tropikalny sztorm</item>
+    <item>Huragan</item>
+    <item>Duża burza z piorunami</item>
+    <item>Burza z piorunami</item>
+    <item>Deszcz ze śniegiem</item>
+    <item>Deszcz z lodem</item>
+    <item>Śnieg z lodem</item>
+    <item>Zamarzający deszcz</item>
+    <item>Mżawka</item>
+    <item>Marznący deszcz</item>
+    <item>Mżawka</item>
+    <item>Deszcz</item>
+    <item>Opady śniegu</item>
+    <item>Lekki śnieg</item>
+    <item>Zamieć śnieżna</item>
+    <item>Śnieg</item>
+    <item>Grad</item>
+    <item>Deszcz ze śniegiem</item>
+    <item>Cząstki pyłu</item>
+    <item>Mglisto</item>
+    <item>Mgła</item>
+    <item>Zadymiony</item>
+    <item>Silny wiatr</item>
+    <item>Wiatr</item>
+    <item>Zimno</item>
+    <item>Zachmurzenie</item>
+    <item>Pochmurno</item>
+    <item>Pochmurno</item>
+    <item>Częściowe zachmurzenie</item>
+    <item>Częściowe zachmurzenie</item>
+    <item>Słonecznie</item>
+    <item>Słonecznie</item>
+    <item>Słonecznie</item>
+    <item>Słonecznie</item>
+    <item>Deszcz z gradem</item>
+    <item>Gorąco</item>
+    <item>Pojedyncza burza z piorunami</item>
+    <item>Rozproszona burza z piorunami</item>
+    <item>Przelotny deszcz</item>
+    <item>Rozproszony przelotny deszcz</item>
+    <item>Duże opady śniegu</item>
+    <item>Rozproszone opady śniegu</item>
+    <item>Duże opady śniegu</item>
+    <item>Częściowe zachmurzenie</item>
+    <item>Deszcz piorunów</item>
+    <item>Przelotny śnieg</item>
+    <item>Pojedynczy deszcz piorunów</item>
+    <item>Nieznany pogoda</item>
+    <item>Nieznane warunki pogodowe</item>
+  </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="autoboot_title">
+        <item quantity="other">Pozwolono %d aplikacją na autostart</item>
+        <item quantity="one">Pozwolono %d aplikacji na autostart</item>
+    </plurals>
+    <plurals name="number_apps">
+        <item quantity="other">%s aplikacje</item>
+        <item quantity="one">%s aplikacja</item>
+    </plurals>
+    <plurals name="background_app_allow_title">
+        <item quantity="other">Wyłączono autoczyszczenie (%d aplikacje)</item>
+        <item quantity="one">Wyłączono autoczyszczenie (%d aplikacja)</item>
+    </plurals>
+    <plurals name="apps_disabled">
+        <item quantity="other">Wyłączono %d aplikacje</item>
+        <item quantity="one">Wyłączono %d aplikacje</item>
+    </plurals>
+</resources>

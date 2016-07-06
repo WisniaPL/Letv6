@@ -4,6 +4,10 @@
     <item quantity="other">Od zostania programistą dzieli Cię już tylko tyle kroków: %1$d.</item>
     <item quantity="one">Od zostania programistą dzieli Cię już tylko %1$d krok.</item>
   </plurals>
+  <plurals name="security_settings_fingerprint_preference_summary">
+    <item quantity="other">Ustaw %1$d odciski palców</item>
+    <item quantity="one">Ustaw %1$d odcisk palca</item>
+  </plurals>
   <plurals name="lockpassword_password_requires_letters">
     <item quantity="other">Hasło musi zawierać litery (co najmniej %d).</item>
     <item quantity="one">Hasło musi zawierać co najmniej jedną literę.</item>
@@ -36,9 +40,37 @@
     <item quantity="other">Aplikacje, które mogą odczytywać powiadomienia: %d</item>
     <item quantity="one">%d aplikacja może odczytywać powiadomienia</item>
   </plurals>
-  <plurals name="manage_condition_providers_summary_nonzero">
-    <item quantity="other">Warunki dostarcza kilka aplikacji (%d)</item>
-    <item quantity="one">Warunki dostarcza %d aplikacja</item>
+  <plurals name="zen_mode_summary_alarms_only_by_minute">
+    <item quantity="other">Zmieniono tylko dla alarmów i trwa przez %1$d minuty (do %2$s)</item>
+    <item quantity="one">Zmieniono tylko dla alarmów i trwa przez 1 minutę (do %2$s)</item>
   </plurals>
-  <item name="APKTOOL_DUMMY_000a" type="plurals">false</item>
+  <plurals name="zen_mode_summary_alarms_only_by_hour">
+    <item quantity="other">Zmieniono tylko dla alarmów i trwa przez %1$d godziny (do %2$s)</item>
+    <item quantity="one">Zmieniono tylko dla alarmów i trwa przez 1 godzinę(do %2$s)</item>
+  </plurals>
+  <plurals name="permissions_summary">
+    <item quantity="other">Przyznano %d uprawnień</item>
+    <item quantity="one">Przyznano %d uprawnienie</item>
+  </plurals>
+  <plurals name="runtime_permissions_summary">
+    <item quantity="other">Przyznano %1$d uprawnień (z %2$d) </item>
+    <item quantity="one">Przyznano %1$d uprawnienie (z %2$d) </item>
+  </plurals>
+  <plurals name="runtime_permissions_additional_count">
+    <item quantity="other">%d inne uprawnienia</item>
+    <item quantity="one">%d inne uprawnienie</item>
+  </plurals>
+  <plurals name="domain_urls_apps_summary">
+    <item quantity="other">%d aplikacje są dostępne do otwierania obsługiwanego łącza</item>
+    <item quantity="zero">No app can open any supported link</item>
+    <item quantity="one">1 aplikacja jest dostępna do otwierania obsługiwanego łącza</item>
+  </plurals>
+  <plurals name="high_power_count">
+    <item quantity="other">Optymalizacja baterii została zignorowana dla %d aplikacji</item>
+    <item quantity="one">Optymalizacja baterii została zignorowana dla 1 aplikacji</item>
+  </plurals>
+  <plurals name="memory_usage_apps_summary">
+    <item quantity="other">Pamięć została wykorzystana przez %1$d aplikacji w ostatnich %2$s</item>
+    <item quantity="one">Pamięć została wykorzystana przez 1 aplikację w ostatnich %2$s</item>
+  </plurals>
 </resources>

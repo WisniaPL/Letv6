@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operation_arrays">
+        <item>Allowed</item>
+        <item>Refused</item>
+        <item>Always ask</item>
+    </string-array>
+    <string-array name="operation_two_arrays">
+        <item>Allowed</item>
+        <item>Refused</item>
+    </string-array>
+    <string-array name="permission_log_title">
+        <item>Get rough location</item>
+        <item>Get precise location</item>
+        <item>Use GPS</item>
+        <item>Vibrate</item>
+        <item>Read contacts</item>
+        <item>Write in contacts</item>
+        <item>Read call record</item>
+        <item>Write in call history</item>
+        <item>Read calendar</item>
+        <item>Write in calendar</item>
+        <item>Wi-Fi scan</item>
+        <item>Send notifications</item>
+        <item>Use base station positioning</item>
+        <item>Make calls</item>
+        <item>Read message record</item>
+        <item>Write in message record</item>
+        <item>Receive messages</item>
+        <item>Receive emergency messages</item>
+        <item>Receive MMS</item>
+        <item>Receive Push MMS</item>
+        <item>Send SMS</item>
+        <item>Read ICC messages</item>
+        <item>Write in ICC messages</item>
+        <item>Write system settings</item>
+        <item>Alert window</item>
+        <item>Read notification record</item>
+        <item>Camera</item>
+        <item>Sound mixer</item>
+        <item>Play audio</item>
+        <item>Read clipboard</item>
+        <item>Write in clipboard</item>
+        <item>Use multimedia button</item>
+        <item>Audio focus</item>
+        <item>Media volume</item>
+        <item>Media volume</item>
+        <item>Media volume</item>
+        <item>Media volume</item>
+        <item>Media volume</item>
+        <item>Notification bar volume</item>
+        <item>Bluetooth volume</item>
+        <item>Keep awake</item>
+        <item>Monitor location</item>
+        <item>Monitor high battery use</item>
+        <item>Enable/Disable Wi-Fi</item>
+        <item>Turn on/off Bluetooth</item>
+        <item>Turn on/off data connection</item>
+        <item>Timed wake-up</item>
+        <item>Send MMS</item>
+        <item>Read MMS</item>
+        <item>Write in messages</item>
+        <item>Auto run at system boot-up</item>
+        <item>Enable/Disable NFC</item>
+        <item>Notification bar volume</item>
+        <item>Read phone info</item>
+        <item>Notification bar priority</item>
+        <item>No authorization</item>
+    </string-array>
+</resources>
