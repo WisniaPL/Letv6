@@ -2,31 +2,31 @@
 <resources>
   <string-array name="wifi_status">
     <item/>
-    <item>Scanning…</item>
-    <item>Connecting…</item>
-    <item>Authenticating…</item>
-    <item>Obtaining IP address…</item>
-    <item>Connected</item>
-    <item>Suspended</item>
-    <item>Disconnecting…</item>
-    <item>Disconnected</item>
-    <item>Unsuccessful</item>
-    <item>Blocked</item>
-    <item>Temporarily avoiding poor connection</item>
+    <item>Skanowanie…</item>
+    <item>Łączenie…</item>
+    <item>Uwierzytelnianie…</item>
+    <item>Uzyskiwanie adresu IP…</item>
+    <item>Połączono</item>
+    <item>Wstrzymano</item>
+    <item>Rozłączanie…</item>
+    <item>Rozłączono</item>
+    <item>Niepowodzenie</item>
+    <item>Zablokowano</item>
+    <item>Tymczasowe unikanie słabego połączenia</item>
   </string-array>
   <string-array name="wifi_status_with_ssid">
     <item/>
-    <item>Scanning…</item>
-    <item>Connecting to %1$s…</item>
-    <item>Authenticating with %1$s…</item>
-    <item>Obtaining IP address from %1$s…</item>
-    <item>Connected to %1$s</item>
-    <item>Suspended</item>
-    <item>Disconnecting from %1$s…</item>
-    <item>Disconnected</item>
-    <item>Unsuccessful</item>
-    <item>Blocked</item>
-    <item>Temporarily avoiding poor connection</item>
+    <item>Skanowanie…</item>
+    <item>Łączenie z %1$s…</item>
+    <item>Uwierzytelnianie %1$s…</item>
+    <item>Uzyskiwanie adresu IP od %1$s…</item>
+    <item>Połączono z %1$s</item>
+    <item>Wstrzymano</item>
+    <item>Rozłączanie z %1$s…</item>
+    <item>Rozłączono</item>
+    <item>Niepowodzenie</item>
+    <item>Zablokowano</item>
+    <item>Tymczasowe unikanie słabego połączenia</item>
   </string-array>
   <integer-array name="batterymeter_color_levels">
     <item>15</item>
@@ -53,13 +53,13 @@
     <item>334</item>
   </integer-array>
   <string-array name="volume_stream_titles">
-    <item>Voice calls</item>
+    <item>Połączenia głosowe</item>
     <item>System</item>
-    <item>Notifications</item>
+    <item>Powiadomienia</item>
     <item>Media</item>
-    <item>Alarms</item>
+    <item>Alarmy</item>
     <item/>
-    <item>Bluetooth calls</item>
+    <item>Połączenia Bluetooth</item>
     <item/>
     <item/>
     <item/>

@@ -28,7 +28,7 @@
     <item quantity="other">PIN został wprowadzony niepoprawnie %1$d razy. Po więcej %2$d nieudanych próbach, tylko PUK może być użyty.</item>
     <item quantity="one">PIN został wprowadzony niepoprawnie %1$d raz. Po więcej %2$d nieudanych próbach, tylko PUK może być użyty.</item>
   </plurals>
-  <plurals name="kg_password_wrong_puk_code_leui">
+    <plurals name="kg_password_wrong_puk_code_leui">
     <item quantity="other">PUK został wpisany błędnie %1$d razy. Po więcej %2$d nieudanych próbach karta SIM %1$d zostanie zablokowana.</item>
     <item quantity="one">PUK został wpisany błędnie %1$d raz. Po więcej %2$d nieudanych próbach karta SIM %1$d zostanie zablokowana.</item>
   </plurals>
