@@ -24,7 +24,7 @@
   <string name="dialpad_9_letters">WXYZ</string>
   <string name="dialpad_star_letters"/>
   <string name="dialpad_pound_letters"/>
-  <string name="description_dialpad_overflow">More options</string>
+  <string name="description_dialpad_overflow">Więcej opcji</string>
   <string name="description_delete_button">cofnij</string>
   <string name="description_image_button_plus">plus</string>
   <string name="description_voicemail_button">voicemail</string>
@@ -96,9 +96,9 @@
   <string name="call_log_filter_all_resources">Wszystkie zasoby</string>
   <string name="turn_on_3g_service_message">3G jest wyłączone, włączyć teraz?</string>
   <string name="associate_sim_missing_message">The %1$s SIM is unavailable. Would you like to place the call via %2$s</string>
-  <string name="associate_sim_missing_other">Other</string>
+  <string name="associate_sim_missing_other">Inne</string>
   <string name="sim_manage_call_via">Zadzwoń przez</string>
-  <string name="ip_dial_error_toast_for_no_ip_prefix_number">Please enter IP prefix number first in voice call settings.</string>
+  <string name="ip_dial_error_toast_for_no_ip_prefix_number">Proszę podać numer prefiksu IP najpierw w ustawieniach połączeń głosowych.</string>
   <string name="ip_dial_error_toast_for_sip_call_selected">IP dial function is not applicable to internet call.</string>
   <string name="sd_add">Dodaj</string>
   <string name="reselect_number">Numer został już przypisany do przycisku szybkiego wybierania numerów; wybierz inny numer.</string>
@@ -283,7 +283,7 @@ Nie ukończono: %d"</string>
 Ukończono: %d
 Nie ukończono: %d"</string>
   <string name="look_simstorage_ct">Pokaż pojemność karty UIM/SIM</string>
-  <string name="callFailed_cdma_notEmergency">Only Emergency calls are possible.</string>
+  <string name="callFailed_cdma_notEmergency">Tylko Połączenia alarmowe są możliwe.</string>
   <string name="international_dialing_title">International dialing assist</string>
   <string name="international_dialing_select_country">"It's detected that you're making an international call. Please choose your destination."</string>
   <string name="international_dialing_add_country_code" formatted="false">"It's detected that you're dialing a %s number. Do you want to add the country code (+%s)?"</string>
@@ -303,7 +303,7 @@ Nie ukończono: %d"</string>
   <string name="international_dialing_area_code">numer kierunkowy</string>
   <string name="international_dialing_invalid_number">The number is invalid. Do you want to continue dialing anyway?</string>
   <string name="international_dialing_add_country_code_and_area_code_without_prefix">Do you want to add the country code and the area code?</string>
-  <string name="no_search_result">No search result</string>
+  <string name="no_search_result">Brak wyników wyszukiwania</string>
   <string name="account_phone_only">Kontakt w telefonie</string>
   <string name="account_sim_only">SIM</string>
   <string name="account_uim_only">UIM</string>
@@ -353,7 +353,7 @@ To add contacts to your favorites, take the following steps:
   <string name="recently_added_contacts">Ostatnio dodane kontakty</string>
   <string name="aggregation_suggestion_edit_dialog_title">Edytuj wybrany kontakt</string>
   <string name="aggregation_suggestion_join_dialog_title">Scal kontakty</string>
-  <string name="searching_vcard_title">Searching vCard</string>
+  <string name="searching_vcard_title">Szukanie vCard</string>
   <string name="cancel_import_confirmation_title">Cancel vCard import</string>
   <string name="cancel_export_confirmation_title">Cancel vCard export</string>
   <string name="menu_all_contacts">Wszystkie kontakty</string>
@@ -434,7 +434,7 @@ To add contacts to your favorites, take the following steps:
   <string name="label_number">Numer</string>
   <string name="import_vcard">Import vCard files from storage device</string>
   <string name="is_delete_group">"Usunąć'%s'?"</string>
-  <string name="is_delete_group_hint">Note: Contacts will not be deleted</string>
+  <string name="is_delete_group_hint">Usuwanie grup %s, kontakty nie zostaną usunięte</string>
   <string name="toast_text_copied">Tekst skopiowany</string>
   <string name="photo_file_provider_authority">com.android.contacts.files</string>
   <string name="call_custom">Połącz – %s</string>
@@ -657,6 +657,7 @@ To add contacts to your favorites, take the following steps:
   <string name="menu_accounts">Konta i synchronizacja</string>
   <string name="menu_import_export">Kopia i przywracanie kontaktów</string>
   <string name="tab_font_family">sans-serif</string>
+  <string name="voicemailtext">sans-serif</string>
   <string name="account_type_lable_eas_gmail">Gmail</string>
   <string name="account_type_lable_eas_qq">QQ</string>
   <string name="editGroupDescription">Edytuj grupę</string>
@@ -766,6 +767,8 @@ To add contacts to your favorites, take the following steps:
   <string name="export_sim_export_contact_to_sim">Export kontaktów na kartę SIM</string>
   <string name="shortcutActivityTitle">Wybierz skrót kontaktu</string>
   <string name="delete_one_contact_label">Usuń kontakt</string>
+  <string name="company_title">Firma</string>
+  <string name="note_title">Notatki</string>
   <string name="delete_contact_label">Usuń %1$d kontakty</string>
   <string name="callShortcutActivityTitle">Wybierz numer, aby nawiązać połączenie</string>
   <string name="messageShortcutActivityTitle">Wybierz numer, aby wysłać wiadomość</string>
@@ -961,6 +964,8 @@ To add contacts to your favorites, take the following steps:
   <string name="import_from_sim_done_title">Kontakty zaimportowane</string>
   <string name="contact_label_comes_from_letv">"Oznaczone jako "</string>
   <string name="contact_label_comes_from_sougo">"  Data from Sogou Phone Guru"</string>
+  <string name="contact_yellowpage_resource_teddy">Teddy Bear</string>
+  <string name="contact_yellowpage_come">"  Data from %s"</string>
   <string name="contact_delete_tip">Usuń kontakt?</string>
   <string name="account_login_content">Kontakty mogą być synchronizowane z kontem LeEco. Utwórz kopię zapasową kontaktów w chmurze, aby zapobiec utracie. Włączyć synchronizację teraz?</string>
   <string name="account_login">Zaloguj i włącz</string>
@@ -989,6 +994,7 @@ To add contacts to your favorites, take the following steps:
   <string name="le_frequent_contacts">Ulubione</string>
   <string name="le_rename_group_dialog_title">Zmień nazwę grupy</string>
   <string name="le_contact_editor_title_listview_cancel">Anuluj</string>
+  <string name="le_contact_editor_title_format">%1$s %2$s %3$s</string>
   <string name="le_contact_editor_title_new">Nowy</string>
   <string name="le_contact_editor_title_edit">Edytuj</string>
   <string name="le_contact_editor_title_contact">kontakty</string>
@@ -1003,12 +1009,16 @@ To add contacts to your favorites, take the following steps:
   <string name="le_quickcontact_click_shortcut_contact">Otwórz kontakty</string>
   <string name="le_quickcontact_click_shortcut_call">Połączenia (%s)</string>
   <string name="le_contact_editor_title_new_default">Nowy kontakt</string>
-  <item name="APKTOOL_DUMMY_2dc" type="string">false</item>
-  <item name="APKTOOL_DUMMY_2dd" type="string">false</item>
-  <item name="APKTOOL_DUMMY_3da" type="string">false</item>
-  <item name="APKTOOL_DUMMY_3db" type="string">false</item>
-  <item name="APKTOOL_DUMMY_3dc" type="string">false</item>
-  <item name="APKTOOL_DUMMY_3dd" type="string">false</item>
-  <item name="APKTOOL_DUMMY_3de" type="string">false</item>
-  <item name="APKTOOL_DUMMY_3df" type="string">false</item>
+  <string name="le_contact_editor_sim_no_group">Adding groups is not supported for SIM contacts</string>
+  <string name="le_contact_ikonw">Wiem</string>
+  <string name="le_contact_editor_select_groups_title">Wybierz grupy</string>
+  <string name="le_ext_number_list_menu_add">Dodaj</string>
+  <item name="APKTOOL_DUMMY_2de" type="string">false</item>
+  <item name="APKTOOL_DUMMY_2df" type="string">false</item>
+  <item name="APKTOOL_DUMMY_3e7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_3e8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_3e9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_3ea" type="string">false</item>
+  <item name="APKTOOL_DUMMY_3eb" type="string">false</item>
+  <item name="APKTOOL_DUMMY_3ec" type="string">false</item>
 </resources>

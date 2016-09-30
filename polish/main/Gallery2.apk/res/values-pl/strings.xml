@@ -3,10 +3,9 @@
   <string name="emotion_send">发送</string>
   <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
   <string name="character_counter_pattern">%1$d/%2$d</string>
-  <string name="loading">Ładowanie...</string>
   <string name="no_comment">Brak opinii. Dodaj komentarz.</string>
-  <string name="comment_text">Small Text Small Text Small Text Small Text Small Text Small Text Small Text Small Text Small Text Small Text Small Text Small Text</string>
   <string name="le_comment_authormark">OP</string>
+  <string name="le_comment_officialmark">Official</string>
   <string name="popup_textstart">Odpowiedz</string>
   <string name="popup_textmid">Polub</string>
   <string name="popup_textend">Zgłoś</string>
@@ -21,8 +20,6 @@
   <string name="le_articleview_norightdel">"Nie można usunąć postów innych osób"</string>
   <string name="sendactionbar_title">Initiate a discussion</string>
   <string name="artcileactionbar_title">Szczegóły</string>
-  <string name="goodcountnum">+2333</string>
-  <string name="time">Data</string>
   <string name="title_hint">Enter the title</string>
   <string name="content_hint">Main text</string>
   <string name="le_postArtcile_nocontent">Main text</string>
@@ -129,6 +126,15 @@
   <string name="le_starpage_postarticle">发起图文贴</string>
   <string name="le_starpage_postvote">投票</string>
   <string name="le_starpage_postcancel">取消</string>
+  <string name="le_articleview_artdeleted">Already Gone</string>
+  <string name="le_articleview_giveupedit">Give up Editing ?</string>
+  <string name="le_articleview_gaveup">Comfirm</string>
+  <string name="le_articleview_cancel">Cancel</string>
+  <string name="le_articleview_checktime">Please check the system time</string>
+  <string name="le_cemment_morereply">show all replies</string>
+  <string name="le_cemment_replycommentnums">replies</string>
+  <string name="le_cemment_replycommentnum">reply</string>
+  <string name="loading">Ładowanie...</string>
   <string name="app_name">Galeria</string>
   <string name="hello_world">Hello world!</string>
   <string name="action_settings">Ustawienia</string>
@@ -320,6 +326,7 @@
   <string name="le_filtershow_exit_tips">Odrzucić edycję?</string>
   <string name="le_filtershow_exit_ok">Odrzuć</string>
   <string name="le_filtershow_exit_cancel">Pozostaw</string>
+  <string name="le_filtershow_load_failure">Niemożna załadować zdjęć</string>
   <string name="undo_filters">Cofnij</string>
   <string name="image_content_description">Obraz</string>
   <string name="le_flow">Zdjęcie</string>
@@ -571,6 +578,7 @@
   <string name="le_sticker_pay_in_use">Payment is in process. You need to complete the previous payment</string>
   <string name="le_sticker_price">¥%s</string>
   <string name="le_sticker_use">Just try</string>
+  <string name="le_sticker_comment_res_id">sticker_%s</string>
   <string name="cancel_edit">Anuluj</string>
   <string name="save_image">Zapisz</string>
   <string name="share_image">Udostępnij</string>
@@ -587,6 +595,7 @@
   <string name="le_menu_add_cloud_album">Dodaj album w chmurze</string>
   <string name="le_menu_add_cloud_item">Dodaj zdjęcie w chmurze</string>
   <string name="le_menu_show_local_album">Lokalne pliki</string>
+  <string name="le_menu_show_cloud_album">Albumy w chmurze</string>
   <string name="le_set_cloud_header">Sync your frequently-used folders</string>
   <string name="le_set_store_header">"Enable sync for your frequently-used folders
 and display them on the front page"</string>
@@ -601,6 +610,7 @@ and display them on the front page"</string>
   <string name="le_trash_list_name">Kosz</string>
   <string name="le_unknown_remote_media">Obrazy</string>
   <string name="le_title_album">Albumy</string>
+  <string name="le_title_cloud_album">Albumy w chmurze</string>
   <string name="le_title_local_album">Lokalne pliki</string>
   <string name="le_title_photo">Zdjęcia</string>
   <string name="le_title_all">Wszystko</string>
@@ -634,6 +644,8 @@ and display them on the front page"</string>
   <string name="le_more_action_slideshow">Pokaz slajdów</string>
   <string name="le_more_action_private">Prywatny</string>
   <string name="le_more_action_btn_cancel">Anuluj</string>
+  <string name="le_more_action_set_as_cloud">Synchronizuj folder</string>
+  <string name="le_more_action_set_as_uncloud">Niesynchronizuj folderu</string>
   <string name="le_album_name_private">Prywatny album</string>
   <string name="le_footer_action_private">Ustaw jako prywatny</string>
   <string name="le_footer_action_un_private">Przywróć</string>
@@ -679,6 +691,8 @@ and display them on the front page"</string>
   <string name="le_page_new_album">Szczegóły albumu</string>
   <string name="le_page_new_album_set">Zbiór albumów</string>
   <string name="le_page_new_photo_header">Nagłówek obrazu (lokalizacja)</string>
+  <string name="le_private_video_cannot_play">This Video has been set to private, you have to move out of private for playing video</string>
+  <string name="le_trash_video_cannot_play">This Video has been deleted, you have to restore it for playing video</string>
   <string name="le_taken">Czas</string>
   <string name="le_modified">Zmodyfikowany</string>
   <string name="le_name">Nazwa</string>
@@ -725,6 +739,30 @@ In per sale delenit torquatos, id has mundi iudicabit intellegam, vim quis eros 
   <string name="videoplayer_block_up">Odtwarzacz wideo został wyłączony</string>
   <string name="le_notification_title">Żądanie dostępu do synchronizacji w chmurze</string>
   <string name="le_notification_content">Using cloud sync services need to open the phone permission</string>
+  <string name="le_footer_action_out_of_memory_confirm_delete">OK</string>
+  <string name="le_footer_action_out_of_memory_perm_delete">For out of memory, Photos will be permanently deleted</string>
+  <string name="le_sticker_create_payinfo">Generating order</string>
+  <string name="le_sticker_order_fail">Network busy</string>
+  <string name="le_sticker_pay_unavailable">Payment unavailable</string>
+  <string name="le_sticker_pay_success">Paid successfully</string>
+  <string name="le_sticker_pay_cancel">Payment canceled</string>
+  <string name="le_sticker_pay_fail">Pay failed</string>
+  <string name="le_sticker_network_fail">Connection timed out. Please check your network.</string>
+  <string name="le_save_video_wait_edit_strings">Saving video, please wait</string>
+  <string name="le_folder_sync_tips_strings">Please switch on photos sync to sync this folder. With Cloud Sync enables, your pictures will be synced to the Cloud on Wi-Fi. No mobile data will be used.</string>
+  <string name="le_watermark_setting_strings">Watermark setting</string>
+  <string name="le_default_add_watermark_strings">Add watermark by default during image editing</string>
+  <string name="le_gallery_will_not_run_title_strings">Gallery can’t run</string>
+  <string name="le_gallery_will_not_run_content_strings">Gallery does not have the necessary permissions needed to run . Please check your permission settings.</string>
+  <string name="le_gallery_will_not_run_close_button_strings">Zamknij</string>
+  <string name="le_trash_gif_support_not_play_strings">"You can't play gif that has been deleted."</string>
+  <string name="le_remove_pure_remote_album_title_strings">Zdjęcia nie zostaną usunięte po usunięciu tego folderu.</string>
+  <string name="le_remove_pure_remote_album_strings">Usuń</string>
+  <string name="le_more_action_set_hide">Ukryj folder</string>
+  <string name="le_more_action_set_hide_success">Ten folder został ukryty, można zamknąć tryb ukryty w ustawieniach.</string>
+  <string name="le_setting_album_management">Menadżer folderu</string>
+  <string name="le_setting_hide_albums">Ukryj folder</string>
+  <string name="le_setting_hide_albums_info">Folder zostanie ukryty po włączeniu przycisku, a nie można wyświetlić w galerii.</string>
   <string name="gadget_title">Ramka ze zdjęciem</string>
   <string name="details_ms">%1$02d:%2$02d</string>
   <string name="details_hms">%1$d:%2$02d:%3$02d</string>
@@ -809,6 +847,7 @@ In per sale delenit torquatos, id has mundi iudicabit intellegam, vim quis eros 
   <string name="sequence_in_set">%1$d z %2$d elementów:</string>
   <string name="title">Tytuł</string>
   <string name="description">Opis</string>
+  <string name="time">Data</string>
   <string name="location">Lokacja</string>
   <string name="path">Ścieżka</string>
   <string name="width">Szerokość</string>

@@ -97,6 +97,13 @@
   <string name="category_key_device">com.android.settings.category.device</string>
   <string name="category_key_personal">com.android.settings.category.personal</string>
   <string name="category_key_system">com.android.settings.category.system</string>
+  <string name="leui_finger_print_launch_camera_title">Zdjęcia odciskiem palca</string>
+  <string name="leui_finger_print_launch_camera_switch_title">Zdjęcia odciskiem palca</string>
+  <string name="leui_finger_print_launch_camera_switch_summary">Użyj odcisku palca, aby otworzyć aparat z ekranu blokady</string>
+  <string name="leui_finger_print_launch_camera_choocie_title">Wybierz palec</string>
+  <string name="leui_finger_print_launch_camera_choocie_none">Żaden</string>
+  <string name="leui_finger_print_launch_camera_add_finger_print">"Nie dodano żadnych odcisków palców.Dodać je teraz? "</string>
+  <string name="leui_finger_print_launch_camera_add_new_finger_print">Dodaj odcisk palca</string>
   <string name="leui_main_tab_system">Ustawienia systemowe</string>
   <string name="leui_main_tab_application">Ustawienia aplikacji</string>
   <string name="master_clear_desc">"This will erase all data from your phone's "<b>internal storage</b>", including:
@@ -127,6 +134,7 @@
   <string name="language_keyboard_settings">Język i klawiatura</string>
   <string name="cloud_service_settings">Moje LeEco</string>
   <string name="control_center_settings">Panel sterowania</string>
+  <string name="leui_panosearch_settings">Wyszukiwanie</string>
   <string name="notification_settings">Powiadomienia</string>
   <string name="privacyauth_settings">Uprawnienia</string>
   <string name="personal_time_settings">Nie przeszkadzać</string>
@@ -357,11 +365,14 @@
   <string name="finger_change_unlock_way">Przełącz sposób odblokowania</string>
   <string name="finger_change_unlock_way_infor">Odcisk palca może być stosowany do szybkiego odblokowania ekranu, aby chronić swoją prywatność, funkcja linii papilarnych należy odblokować sposobem \ "proste hasło \" lub \ "używać skomplikowanych haseł \".</string>
   <string name="finger_rename">Zmień nazwę</string>
+  <string name="finger_confirm">Potwierdź</string>
   <string name="finger_delete">Usuń</string>
   <string name="finger_enroll">Rejestrowanie odcisku palca</string>
   <string name="finger_enroll_comming">Rejestrowanie krawędzi linii papilarnych</string>
   <string name="finger_enroll_info">Naciśnij palcem na czytnik z tyłu telefonu, jak poczujesz wibrację dotknij ponownie</string>
   <string name="finger_enroll_success">Odcisk palca został dodany</string>
+  <string name="finger_enroll_success_message">Odcisk palca zapisany</string>
+  <string name="finger_enroll_yes_button">Zrobione</string>
   <string name="finger_esit">Ten odcisk już istnieje. Proszę użyć innego palca</string>
   <string name="esit">Edytuj</string>
   <string name="finger_name_empty">Nazwa nie może być pusta</string>
@@ -404,6 +415,7 @@
   <string name="leui_memory_app_instaled">Zainstalowane aplikacje</string>
   <string name="leui_memory_app_none">Brak aplikacji</string>
   <string name="leui_sys_display_string">Display string key</string>
+  <string name="leui_bg_resource_control">Włącz kontrolę zasobów tła</string>
   <string name="leui_notifications_visibility_on_keyguard">Powiadomienia pojawiają się na ekranie blokady</string>
   <string name="leui_power_usage_list_settings">Wykorzystanie baterii</string>
   <string name="leui_calendar_settings">Kalendarz</string>
@@ -444,6 +456,8 @@
   <string name="leui_battery_manager_settings">Oszczędzanie energii</string>
   <string name="leui_wallpaper_and_theme_settings">Tapety i motywy</string>
   <string name="leui_superseatch_longpress_summary">Nie można szukać przy zablokowanym ekranie</string>
+  <string name="leui_forbid_virtual_key">Ochrona dolnych przycisków wirtualnych</string>
+  <string name="leui_forbid_virtual_key_summary">Po włączeniu nacisnąć oba przyciski głośności i zasilania, aby włączyć lub wyłączyć ochronę klawiszy wirtualnych</string>
   <string name="leui_master_clear_low_battery_warning_text">Akumulator jest poniżej 20%. Proszę naładować i ponownie przywrócić do ustawień fabrycznych.</string>
   <string name="leui_security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled">"Opcje blokowania ekranu są wyłączone. Można nadal używać odcisku palca w celu autoryzacji transakcji zakupu i wykorzystywania aplikacji."</string>
   <string name="leui_security_settings_fingerprint_enroll_disclaimer">Oprócz odblokowaniu telefonu, można również korzystać z linii papilarnych do uwierzytelniania przy zakupie przedmiotów i logowania się do aplikacji.</string>
@@ -477,8 +491,8 @@
   <string name="leui_zen_mode_event_rule_reply_yes">Zaakceptowany</string>
   <string name="leui_local_account">Lokalne konto</string>
   <string name="leui_letv_account">Konto LeEco</string>
-  <string name="leui_forbid_virtual_key">Ochrona dolnych przycisków wirtualnych</string>
-  <string name="leui_forbid_virtual_key_summary">Po włączeniu nacisnąć oba przyciski głośności i zasilania, aby włączyć lub wyłączyć ochronę klawiszy wirtualnych</string>
+  <string name="leui_three_fingers_cap_title">Zrzut trzema palcami</string>
+  <string name="leui_three_fingers_cap_summary">Przesuń w górę i w dół trzema palcami, aby zrobić zrzut</string>
   <string name="leui_hoizer_descrip">Disabling the Hall sensor will prevent the phone from automatically turning on and off the screen based on the open-close state of the smart leather case</string>
   <string name="leui_holzer_switch">Hall sensor</string>
   <string name="leui_holzer_switch_summary">Automatic screen on and off based on the open-close state of the smart leather case is supported</string>
@@ -545,6 +559,31 @@
   <string name="leui_all_notification_banned_button">Wyłącz wszystkie powiadomienia</string>
   <string name="leui_all_notification_banned_prompt">Wszystkie powiadomienia wyłączone</string>
   <string name="leui_personalized_settings_title">Personalizacja</string>
+  <string name="leui_app_notification_priority_summary">Włącz by powiadomienia były słyszane, gdy Tryb nie przeszkadzać jest ustawiony tylko dla priorytetów</string>
+  <string name="leui_enable_access_control">Włącz blokadę aplikacji</string>
+  <string name="leui_access_control_passwd_button">Utwórz hasło dla blokady aplikacji</string>
+  <string name="leui_access_control_completed_button">Zrobione</string>
+  <string name="leui_access_control_lockscreen_summary">Blokada ekranu może pomóc odzyskać hasło blokady aplikacji</string>
+  <string name="leui_access_control_fingerprint_prompt_content">Utworzono nowy odcisk palca? Tworzenie nowej linii papilarnych pozwala zweryfikować blokadę aplikacji za pomocą odcisku palca.</string>
+  <string name="leui_access_control_fingerprint_prompt_tilte">Hasło zostało pomyślnie utworzone</string>
+  <string name="leui_enable_privacy_lock">Włącz blokadę prywatności</string>
+  <string name="leui_privacy_lock_passwd_button">Utwórz hasło dla blokady prywatności</string>
+  <string name="leui_privacy_lock_completed_button">Zrobione</string>
+  <string name="leui_privacy_lock_lockscreen_summary">Blokada ekranu może pomóc odzyskać hasło blokady prywatności</string>
+  <string name="leui_privacy_lock_fingerprint_prompt_content">Utworzono nowy odcisk palca? Tworzenie nowej linii papilarnych pozwala zweryfikować blokadę aplikacji za pomocą odcisku palca.</string>
+  <string name="leui_privacy_lock_fingerprint_prompt_tilte">Hasło zostało pomyślnie utworzone</string>
+  <string name="finger_step_one">1</string>
+  <string name="finger_step_two">2</string>
+  <string name="leui_access_control_summary">Aplikacje zostaną ponownie zablokowane po zablokowaniu ekranu</string>
+  <string name="leui_finger_print_rename_duplicate">Nazwa już istnieje</string>
+  <string name="leui_finger_print_name_invalid">Błędna nazwa</string>
+  <string name="leui_fingerprint_enroll_time_out_confrim">Potwierdź</string>
+  <string name="leui_fingerprint_error_time_out_title">Przekroczono limit czasu operacji. Proszę spróbuj ponownie</string>
+  <string name="leui_fingerprint_no_space">Brak wystarczającej ilości wolnego miejsca</string>
+  <string name="leui_font_size_standard">Standardowy</string>
+  <string name="leui_font_size_medium">Średni</string>
+  <string name="leui_font_size_large">Duży</string>
+  <string name="leui_font_size_very_large">Bardzo duży</string>
   <string name="wifi_settings">Wi‑Fi</string>
   <string name="wifi_settings_title">Wi‑Fi</string>
   <string name="wifi_choose_network">Wybierz sieć</string>
@@ -639,6 +678,7 @@
   <string name="ring_select_gp_for_calendar">Kontrola przypomnienia kalendarza</string>
   <string name="local_ringtone_is_none">Brak lokalnej muzyki</string>
   <string name="local_music_for_ringtone">Lokalna muzyka</string>
+  <string name="toast_muted_on_ring_select">Telefon wyciszony.</string>
   <string name="ring_select_cancle">Anuluj</string>
   <string name="ring_select_savetodefault">Dzwonek zapisany</string>
   <string name="sound_setting_volume">Głośność</string>
@@ -657,6 +697,15 @@
   <string name="leui_global_vibrate_warn_msg">Gdy wibracja jest wyłączona, wszelkie wibracje zostaną zawieszone. Dotyczy to zarówno połączeń przychodzących i wychodzących, a także funkcji alarmu. Wyłączyć?</string>
   <string name="leui_global_vibrate_btn_ok">Potwierdź </string>
   <string name="leui_global_vibrate_btn_cancel">Anuluj</string>
+  <string name="dolby_switch_on">Wł</string>
+  <string name="dolby_switch_off">Wył</string>
+  <string name="dolby_profiles_selection">Efekty dźwiękowe</string>
+  <string name="dolby_profile_movie">Film</string>
+  <string name="dolby_profile_music">Muzyka</string>
+  <string name="dolby_profile_game">Gry</string>
+  <string name="dolby_profile_voice">Głos</string>
+  <string name="dolby_tips_message">Wskazówka: Wybrany efekt dźwiękowy zostanie włączony podczas odtwarzania muzyki.</string>
+  <string name="no_sim_card_insert">Nie włożona karta</string>
   <string name="summary_hifi_switch_settings">Słuchawki są wymagane dla efektu Hi Fi</string>
   <string name="proxy_port_label_short">Port</string>
   <string name="proxy_exclusionlist_label_short">Wykluczone adresy URL</string>
@@ -1742,11 +1791,8 @@ To use this ^1, you have to set it up first."</string>
   <string name="storage_dialog_unsupported">"This device doesn’t support this ^1. 
 
 To use this ^1 with this device, you have to set it up first."</string>
-  <string name="storage_internal_format_details">"After formatting, you can use this ^1 in other devices. 
-
-All data on this ^1 will be erased. Consider backing up first. 
-
-"<b>Back up photos &amp; other media</b>" 
+  <string name="storage_internal_format_details">" 
+All apps stored on this ^1 will be uninstalled and their data will be erased. To keep these apps, move them to alternative storage on this device."<b>Back up photos &amp; other media</b>" 
 Move your media files to alternative storage on this device, or transfer them to a computer using a USB cable. 
 
 "<b>Back up apps</b>" 
@@ -1783,15 +1829,9 @@ To view details, switch to ^1."</string>
   <string name="storage_wizard_init_internal_title">Use as internal storage</string>
   <string name="storage_wizard_init_internal_summary">For storing anything on this device only, including apps and photos. Requires formatting that prevents it from working with other devices.</string>
   <string name="storage_wizard_format_confirm_title">Format as internal storage</string>
-  <string name="storage_wizard_format_confirm_body">"This requires the ^1 to be formatted to make it secure. 
-
-After formatting, this ^1 will only work in this device. 
-
-"<b>Formatting erases all data currently stored on the ^1.</b>" To avoid losing the data, consider backing it up. "</string>
+  <string name="storage_wizard_format_confirm_body">" To avoid losing the data, consider backing it up. "<b>Formatting erases all data currently stored on the ^1.</b>" To avoid losing the data, consider backing it up. "</string>
   <string name="storage_wizard_format_confirm_public_title">Format as portable storage</string>
-  <string name="storage_wizard_format_confirm_public_body">"This requires the ^1 to be formatted. 
-
-"<b>Formatting erases all data currently stored on the ^1.</b>" To avoid losing the data, consider backing it up. "</string>
+  <string name="storage_wizard_format_confirm_public_body">" To avoid losing the data, consider backing it up. "<b>Formatting erases all data currently stored on the ^1.</b>" To avoid losing the data, consider backing it up. "</string>
   <string name="storage_wizard_format_confirm_next">Erase &amp; format</string>
   <string name="storage_wizard_format_progress_title">Formatting ^1…</string>
   <string name="storage_wizard_format_progress_body">Don’t remove the ^1 while it’s formatting.</string>
@@ -3630,12 +3670,12 @@ This helps protect data on lost or stolen devices."</string>
   <string name="high_power_desc">Don’t apply battery optimization. May drain your battery more quickly.</string>
   <string name="high_power_prompt_title">Ignore battery optimizations?</string>
   <string name="high_power_prompt_body">Let app %1$s stay connected in the background? This may use more battery.</string>
-  <string name="battery_summary">%1$d%% use since last full charge</string>
+  <string name="battery_summary">%1$d%% w użyciu od ostatniego pełnego naładowania</string>
   <string name="no_battery_summary">No battery use since last full charge</string>
   <string name="app_notification_preferences">App settings</string>
   <string name="system_ui_settings">Show SystemUI Tuner</string>
   <string name="additional_permissions">Additional permissions</string>
-  <string name="additional_permissions_more">%1$d more</string>
+  <string name="additional_permissions_more">%1$d więcej</string>
   <string name="usb_use_charging_only">Charging</string>
   <string name="usb_use_charging_only_desc">Just charge this device</string>
   <string name="usb_use_power_only">Power supply</string>
@@ -3937,64 +3977,6 @@ Czy na pewno chcesz włączyć teraz GPS i poczekać na określenie czasu GPS?"<
   <string name="summary_type_c_switch_settings">CDLA headphones are required. Please note that this feature may increase battery drain.</string>
   <string name="type_c_switch_settings">CDLA headphones</string>
   <string name="date_time_date_format">Wybierz format daty</string>
-  <string name="sim_pin_incorrect">Nieprawidłowy kod PIN karty SIM</string>
-  <string name="sim_pin_attempts">"  Pozostało prób :"</string>
-  <string name="sim_pin_enabled">PIN1 włączony!</string>
-  <string name="sim_pin_disabled">PIN1 wyłączony!</string>
-  <string name="bluetooth_pbap_profile_summary_connected">Podłączono do serwera udostępniania kontaktów</string>
-  <string name="usb_charging_title">Szybkie ładowanie</string>
-  <string name="usb_charging_summary">Wyłącz wszelkie funkcje USB, aby przyspieszyć ładowanie.</string>
-  <string name="usb_sdcard_title">Podłącz kartę SD</string>
-  <string name="usb_sdcard_summary">Pozwala na przenoszenie plików na kartę SD</string>
-  <string name="sim_cards_celluar_data_dialog_title">Wybierz kartę SIM do obsługi danych komórkowych</string>
-  <string name="sim_cards_calls_dialog_title">Wybierz konto do obsługi połączeń telefonicznych</string>
-  <string name="sim_cards_data_sms_dialog_title">Wybierz kartę SIM do obsługi wiadomości SMS</string>
-  <string name="usb_charge_summary">Zatrzymaj wszystkie funkcje USB. Zapewnia szybsze ładowanie USB i zmniejsza zużycie energii.</string>
-  <string name="sim_tab_info">SIM%s</string>
-  <string name="data_sync_server">Serwer synchronizacji danych</string>
-  <string name="battery_timealign">Dopasuj wybudzanie</string>
-  <string name="battery_timealign_summary">Skutecznie zmniejszaja liczbę wybudzeń telefonu i wydłuża żywotność baterii</string>
-  <string name="battery_timealign_twilight_summary">Optymalnie zmniejsza liczbę wybudzeń telefonu w nocy i wydłuża żywotność baterii</string>
-  <string name="bluetooth_device_discovered">Wykrywalne</string>
-  <string name="bluetooth_pan_profile_use_notice">Proszę wyłączyć WiFi i ponowić</string>
-  <string name="bluetooth_pbap_profile_summary_use_for">Służy do udostępniania kontaktów</string>
-  <string name="choose_sim">Wybierz kartę SIM</string>
-  <string name="data_backup_reduction">kopia danych i redukcja</string>
-  <string name="data_recovery">Odzyskiwanie danych</string>
-  <string name="data_type_recovery_title">Wybierz przywracanie danych</string>
-  <string name="datausage_no_sim_summary">Brak karty SIM, nie można zobaczyć użycia danych</string>
-  <string name="delete_all_no_choose">Odznacz wszystkie</string>
-  <string name="dual_sim_network_settings_title">Dual SIM i sieć komórkowa</string>
-  <string name="edit_device">Zmień nazwę urządzenia</string>
-  <string name="enable_wlan_warning">"Musisz włączyć Wifi by użyć wyświetlacza bezprzewodowego.Włączyć Wi-Fi? "</string>
-  <string name="error_name_invalid">Nieprawidłowa pole nazwy.</string>
-  <string name="find_data">Znajdź dane</string>
-  <string name="have_chosen_count">wybierz %1$d dane</string>
-  <string name="le_account_settings_title">Zarządzanie kontem</string>
-  <string name="leui_key_position_policy">Tryb leworęczny</string>
-  <string name="leui_key_position_policy_summary">Kiedy włączony, funkcje skrajnych przycisków zostaną zamienione.</string>
-  <string name="no_data">Brak danych</string>
-  <string name="no_search_results">Brak wyników wyszukiwania</string>
-  <string name="note">Notatki</string>
-  <string name="privacy_settings_factory_reset">Przywrócić ustawienia fabryczne</string>
-  <string name="recovery_contact_group_title">Grupy</string>
-  <string name="recovery_failure">Przywracanie nieudane</string>
-  <string name="recovery_success">Przywracanie udane</string>
-  <string name="recycle_bin">Kosz</string>
-  <string name="recycle_bin_summary">Pozycje w koszu będą przechowywane przez 30 dni</string>
-  <string name="restore_sync_deleted_data">Przywracanie usuniętych danych(%1$d%%)</string>
-  <string name="show_quick_switch_ime">Zmiana metody wprowadzania tekstu na pasku powiadomień</string>
-  <string name="show_quick_switch_ime_summary">Kiedy klawiatura ekranowa jest włączona, możesz wejść w opcje metod wprowadzania przez pasek powiadomień</string>
-  <string name="sim_card_blue">Niebieski</string>
-  <string name="sim_card_green">Zielony</string>
-  <string name="sim_card_violet">Fioletowy</string>
-  <string name="sim_card_yellow">Żółty</string>
-  <string name="sim_info_editor_color">Kolor tła</string>
-  <string name="sync_in_pending">Synchronizacja w toku ...</string>
-  <string name="the_max_connected_device_reminder">Można podłączyć do trzech urządzeń. Nie można powiązać z innymi urządzeniami teraz.</string>
-  <string name="the_max_connected_device_reminder1">Można podłączyć do trzech urządzeń. Nie można wysłać plików teraz.</string>
-  <string name="toast_in_call">Nie można zmienić karty podczas połączenia</string>
-  <string name="unsupported_operation">"Tego konta nie można dodać ręcznie"</string>
   <string name="battery_info_health_cold">Zimna</string>
   <string name="battery_info_health_dead">Rozładowana</string>
   <string name="battery_info_health_good">Dobry</string>
@@ -4020,10 +4002,70 @@ Czy na pewno chcesz włączyć teraz GPS i poczekać na określenie czasu GPS?"<
   <string name="battery_info_uptime">Czas od uruchomienia:</string>
   <string name="battery_info_voltage_label">Napięcie baterii:</string>
   <string name="battery_info_voltage_units">mV</string>
-  <string name="testing_battery_info">Informacje o baterii</string>
-  <string name="storage_usb">Nośnik USB</string>
+  <string name="battery_timealign">Dopasuj wybudzanie</string>
+  <string name="battery_timealign_summary">Skutecznie zmniejszaja liczbę wybudzeń telefonu i wydłuża żywotność baterii</string>
+  <string name="battery_timealign_twilight_summary">Optymalnie zmniejsza liczbę wybudzeń telefonu w nocy i wydłuża żywotność baterii</string>
+  <string name="bluetooth_device_discovered">Wykrywalne</string>
+  <string name="data_recovery">Odzyskiwanie danych</string>
+  <string name="data_sync_server">Serwer synchronizacji danych</string>
+  <string name="data_type_recovery_title">Wybierz przywracanie danych</string>
+  <string name="delete_all_no_choose">Odznacz wszystkie</string>
+  <string name="dolby_atmos_sound">Dolby Atmos</string>
+  <string name="dual_sim_network_settings_title">Dual SIM i sieć komórkowa</string>
+  <string name="edit_device">Zmień nazwę urządzenia</string>
+  <string name="enable_wlan_warning">"Musisz włączyć Wifi by użyć wyświetlacza bezprzewodowego.Włączyć Wi-Fi? "</string>
+  <string name="error_name_invalid">Nieprawidłowa pole nazwy.</string>
+  <string name="find_data">Znajdź dane</string>
+  <string name="have_chosen_count">wybierz %1$d dane</string>
   <string name="hifi_switch_settings">Hi-Fi</string>
   <string name="image_note">photo note</string>
+  <string name="le_account_settings_title">Zarządzanie kontem</string>
+  <string name="leui_key_position_policy">Tryb leworęczny</string>
+  <string name="leui_key_position_policy_summary">Kiedy włączony, funkcje skrajnych przycisków zostaną zamienione.</string>
+  <string name="no_data">Brak danych</string>
+  <string name="no_search_results">Brak wyników wyszukiwania</string>
+  <string name="note">Notatki</string>
+  <string name="privacy_settings_factory_reset">Przywrócić ustawienia fabryczne</string>
+  <string name="recovery_failure">Przywracanie nieudane</string>
+  <string name="recovery_success">Przywracanie udane</string>
+  <string name="recycle_bin">Kosz</string>
+  <string name="recycle_bin_summary">Pozycje w koszu będą przechowywane przez 30 dni</string>
+  <string name="restore_sync_deleted_data">Przywracanie usuniętych danych(%1$d%%)</string>
+  <string name="show_quick_switch_ime">Zmiana metody wprowadzania tekstu na pasku powiadomień</string>
+  <string name="show_quick_switch_ime_summary">Kiedy klawiatura ekranowa jest włączona, możesz wejść w opcje metod wprowadzania przez pasek powiadomień</string>
+  <string name="sim_cards_calls_dialog_title">Wybierz konto do obsługi połączeń telefonicznych</string>
+  <string name="sim_cards_celluar_data_dialog_title">Wybierz kartę SIM do obsługi danych komórkowych</string>
+  <string name="sim_cards_data_sms_dialog_title">Wybierz kartę SIM do obsługi wiadomości SMS</string>
+  <string name="sim_info_editor_color">Kolor tła</string>
+  <string name="sim_pin_attempts">"  Pozostało prób :"</string>
+  <string name="sim_pin_disabled">PIN1 wyłączony!</string>
+  <string name="sim_pin_enabled">PIN1 włączony!</string>
+  <string name="sim_pin_incorrect">Nieprawidłowy kod PIN karty SIM</string>
+  <string name="sim_tab_info">SIM%s</string>
+  <string name="sync_in_pending">Synchronizacja w toku ...</string>
+  <string name="testing_battery_info">Informacje o baterii</string>
+  <string name="unsupported_operation">"Tego konta nie można dodać ręcznie"</string>
+  <string name="usb_charging_summary">Wyłącz wszelkie funkcje USB, aby przyspieszyć ładowanie.</string>
+  <string name="usb_charging_title">Szybkie ładowanie</string>
+  <string name="apn_ppp_number">APN PPP phone number</string>
+  <string name="bluetooth_pbap_profile_summary_connected">Podłączono do serwera udostępniania kontaktów</string>
+  <string name="usb_sdcard_title">Podłącz kartę SD</string>
+  <string name="usb_sdcard_summary">Pozwala na przenoszenie plików na kartę SD</string>
+  <string name="usb_charge_summary">Zatrzymaj wszystkie funkcje USB. Zapewnia szybsze ładowanie USB i zmniejsza zużycie energii.</string>
+  <string name="bluetooth_pan_profile_use_notice">Proszę wyłączyć WiFi i ponowić</string>
+  <string name="bluetooth_pbap_profile_summary_use_for">Służy do udostępniania kontaktów</string>
+  <string name="choose_sim">Wybierz kartę SIM</string>
+  <string name="data_backup_reduction">kopia danych i redukcja</string>
+  <string name="datausage_no_sim_summary">Brak karty SIM, nie można zobaczyć użycia danych</string>
+  <string name="recovery_contact_group_title">Grupy</string>
+  <string name="sim_card_blue">Niebieski</string>
+  <string name="sim_card_green">Zielony</string>
+  <string name="sim_card_violet">Fioletowy</string>
+  <string name="sim_card_yellow">Żółty</string>
+  <string name="the_max_connected_device_reminder">Można podłączyć do trzech urządzeń. Nie można powiązać z innymi urządzeniami teraz.</string>
+  <string name="the_max_connected_device_reminder1">Można podłączyć do trzech urządzeń. Nie można wysłać plików teraz.</string>
+  <string name="toast_in_call">Nie można zmienić karty podczas połączenia</string>
+  <string name="storage_usb">Nośnik USB</string>
   <string name="current_machine">Aktualna maszyna</string>
   <string name="recovery_notebook_title">Notatnik</string>
   <string name="backup_data">Backup data</string>
@@ -4034,8 +4076,6 @@ Czy na pewno chcesz włączyć teraz GPS i poczekać na określenie czasu GPS?"<
   <string name="csl_sim_service">Obsługa kart SIM ( SIM%1$d )</string>
   <string name="external_storage_turn_off">External storage has been turned off</string>
   <string name="external_storage_turn_on">External storage has been turned on</string>
-  <string name="dolby_atmos_sound">Dolby Atmos</string>
-  <string name="apn_ppp_number">APN PPP phone number</string>
   <string name="sim_default_name">SIM%1$s</string>
   <string name="leui_usb_optional_category">Opcjonalne funkcje</string>
   <string name="leui_usb_fast_charging">Ekspresowe ładowanie USB</string>
@@ -4044,6 +4084,7 @@ Czy na pewno chcesz włączyć teraz GPS i poczekać na określenie czasu GPS?"<
   <string name="leui_usb_charging_pctype_title_summary">"Proszę wybrać właściwy typ komputera w celu przyspieszenia ładowania.Niektóre komputery nie obsługuje tej funkcji. Proszę zapisać dane przed użyciem. "</string>
   <string name="leui_usb_charging_pctype_item">Mac</string>
   <string name="leui_usb_charging_pctype_item1">Nie Mac</string>
+  <string name="new_create_note">Utwórz nową notatkę</string>
   <string name="more">Więcej</string>
   <string name="find_device_summary">Log in at cloud.le.com/device to find your device</string>
   <string name="open_find_device">Turning on Find My Device...</string>
@@ -4141,8 +4182,11 @@ Czy na pewno chcesz włączyć teraz GPS i poczekać na określenie czasu GPS?"<
   <string name="le_and">、</string>
   <string name="le_request_permission_title">LeCloud żąda, aby umożliwić %s uprawnienia</string>
   <string name="le_permission_high_light">"&lt;u&gt;&lt;font color='#518ef1'&gt;%s&lt;/font&gt;&lt;/u&gt;"</string>
-  <item name="APKTOOL_DUMMY_e8f" type="string">false</item>
-  <item name="APKTOOL_DUMMY_e90" type="string">false</item>
-  <item name="APKTOOL_DUMMY_e91" type="string">false</item>
-  <item name="APKTOOL_DUMMY_e92" type="string">false</item>
+  <string name="testing_fetch_bind_key">LeEco Key</string>
+  <string name="default_note_date">16/4/14</string>
+  <string name="default_dialog_number">18513825219</string>
+  <item name="APKTOOL_DUMMY_ec1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_ec2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_ec3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_ec4" type="string">false</item>
 </resources>

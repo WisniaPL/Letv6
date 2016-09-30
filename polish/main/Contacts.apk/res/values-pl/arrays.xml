@@ -78,6 +78,61 @@
     <item>Dzwonki</item>
     <item>Więcej</item>
   </string-array>
+  <string-array name="le_add_account_suggestions">
+    <item>le.com</item>
+    <item>163.com</item>
+    <item>126.com</item>
+    <item>qq.com</item>
+    <item>sina.cn</item>
+    <item>sina.com</item>
+    <item>sohu.com</item>
+    <item>gmail.com</item>
+    <item>outlook.com</item>
+    <item>hotmail.com</item>
+  </string-array>
+  <string-array name="le_cmcc_add_account_suggestions">
+    <item>139.com</item>
+    <item>le.com</item>
+    <item>163.com</item>
+    <item>126.com</item>
+    <item>qq.com</item>
+    <item>sina.cn</item>
+    <item>sina.com</item>
+    <item>sohu.com</item>
+    <item>gmail.com</item>
+    <item>outlook.com</item>
+    <item>hotmail.com</item>
+  </string-array>
+  <string-array name="le_ct_add_account_suggestions">
+    <item>189.cn</item>
+    <item>le.com</item>
+    <item>163.com</item>
+    <item>126.com</item>
+    <item>qq.com</item>
+    <item>sina.cn</item>
+    <item>sina.com</item>
+    <item>sohu.com</item>
+    <item>gmail.com</item>
+    <item>outlook.com</item>
+    <item>hotmail.com</item>
+  </string-array>
+  <string-array name="le_oversea_add_account_suggestions">
+    <item>facebook.com</item>
+    <item>gmail.com</item>
+    <item>hotmail.com</item>
+    <item>outlook.com</item>
+    <item>yahoo.com</item>
+    <item>yahoo.com.hk</item>
+    <item>le.com</item>
+  </string-array>
+  <string-array name="le_add_account_suggestions_backup">
+    <item>com</item>
+    <item>cn</item>
+    <item>com.cn</item>
+    <item>org.cn</item>
+    <item>edu.cn</item>
+    <item>org</item>
+  </string-array>
   <string-array name="otherLabels">
     <item>Organizacja</item>
     <item>Notatka</item>

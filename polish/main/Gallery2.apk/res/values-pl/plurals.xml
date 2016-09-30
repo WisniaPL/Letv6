@@ -80,6 +80,11 @@
     <item quantity="zero">%1$d plik usunięty</item>
     <item quantity="one">%1$d plik usunięty</item>
   </plurals>
+  <plurals name="number_of_remove_pure_remote_album">
+    <item quantity="other">Remote %1$d items</item>
+    <item quantity="zero">Remote %1$d item</item>
+    <item quantity="one">Remote %1$d item</item>
+  </plurals>
   <plurals name="number_of_items_remote_tag">
     <item quantity="other">%1$d pliki usunięte</item>
     <item quantity="zero">%1$d plik usunięty</item>

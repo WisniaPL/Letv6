@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <resources>
-  <string name="abc_action_mode_done">Zrobione</string>
+  <string name="abc_action_mode_done">Ustawienia</string>
   <string name="abc_action_bar_home_description">Navigate home</string>
   <string name="abc_action_bar_up_description">Navigate up</string>
-  <string name="abc_action_menu_overflow_description">More options</string>
+  <string name="abc_action_menu_overflow_description">Więcej opcji</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
   <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
   <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -20,9 +20,9 @@
   <string name="status_bar_notification_info_overflow">999+</string>
   <string name="dm_lock">DM Locked</string>
   <string name="dm_unlock">DM Unlock</string>
-  <string name="start_record">Start recording</string>
-  <string name="stop_record">Stop recording</string>
-  <string name="str_db_playlist_name">My recordings</string>
+  <string name="start_record">Włącz nagrywanie</string>
+  <string name="stop_record">Wyłącz nagrywanie</string>
+  <string name="str_db_playlist_name">Moje nagrania</string>
   <string name="alert_device_error">Error occurred on audio device</string>
   <string name="ext_media_badremoval_notification_title">SD card unexpectedly removed</string>
   <string name="error_sdcard_access">Unable to access SD card</string>
@@ -47,25 +47,25 @@ na karcie SD"</string>
   <string name="removeMember">Usuń</string>
   <string name="memberStatus">Informacje o telefonie</string>
   <string name="volte_call_waiting_indication_text">Dzwoni inna osoba, proszę czekać...</string>
-  <string name="onscreenHangupAll">Hangup all</string>
+  <string name="onscreenHangupAll">odwieszenie wszystkich</string>
   <string name="onscreenHangupHolding">Hangup holding</string>
   <string name="onscreenHangupActiveAndAnswerWaiting">Hangup active, answer waiting</string>
   <string name="menu_ect">Transfer</string>
   <string name="respond_via_sms_confirmation_format">Wiadomość wysłano na numer %s.</string>
-  <string name="two_incoming_calls">2 Incoming calls</string>
+  <string name="two_incoming_calls">2 Połączenia przychodzące</string>
   <string name="onHold_cta">On hold</string>
   <string name="call_status_online">Online</string>
   <string name="call_status_onhold">On hold</string>
-  <string name="call_status_dialing">Dialing</string>
-  <string name="call_status_alerting">Dialing</string>
-  <string name="call_status_disconnecting">Disconnecting</string>
-  <string name="call_status_disconnected">Disconnected</string>
+  <string name="call_status_dialing">Wybieranie</string>
+  <string name="call_status_alerting">Wybieranie</string>
+  <string name="call_status_disconnecting">Rozłączanie</string>
+  <string name="call_status_disconnected">Rozłączono</string>
   <string name="accept_incoming_and_disconnect_current">Zaakceptowanie tego połączenia spowoduje zakończenie bieżącego połączenia.</string>
   <string name="add_voicemail_number">Add voice mail number.</string>
   <string name="wifi_wfc_dialog_top_wording">"Congratulations, you've complete your first call using Wi-Fi calling."</string>
   <string name="wifi_wfc_dialog_bottom_wording">When you see this symbol at the top of your screen, you are able to make calls and send messages over Wi-Fi. Wi-Fi calling may use minutes with certain plans.</string>
   <string name="wifi_title">Wi-Fi Calling and Minutes</string>
-  <string name="close">Cancel</string>
+  <string name="close">Anuluj</string>
   <string name="ok">OK</string>
   <string name="offer_dont_display">Please do not show me again</string>
   <string name="view_networks">View networks</string>
@@ -95,11 +95,11 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="classfied_more_data_hotel">{errno:10000,errmsg:null,data:[{brandid:20,leshowname:7天连锁酒店,logo:\"http:s3-cdn.lecloud.com75082367-contacticonbcfd9f4d-f50d-43e2-93ea-51846ce5992a\",number:4008740087},{brandid:135,leshowname:速8酒店,logo:\"http:s3-cdn.lecloud.com75082367-contacticon46eb67f8-2c9b-41b1-83f8-9f00a213e45a\",number:4001840018},{brandid:132,leshowname:格林豪泰酒店,logo:\"http:s3-cdn.lecloud.com75082367-contacticon5fc10f3d-6c68-4347-8076-f1b29a353025\",number:4006998998},{brandid:129,leshowname:布丁酒店,logo:\"http:s3-cdn.lecloud.com75082367-contacticon2ef36089-dd44-4c7f-9528-c5c94136e1f0\",number:4008802802},{brandid:127,leshowname:飘HOME连锁酒店,logo:\"http:s3-cdn.lecloud.com75082367-contacticon70654e11-5c59-46d7-974c-80dfecd64023\",number:4006506668},{brandid:126,leshowname:宜必思酒店,logo:\"http:s3-cdn.lecloud.com75082367-contacticon8449760b-7d29-4b5a-a508-9516b129eb0d\",number:4006001615},{brandid:123,leshowname:24K国际连锁酒店,logo:\"http:s3-cdn.lecloud.com75082367-contacticon9254902e-1b88-4e4a-b5a2-5e6f7f7a28</string>
   <string name="classfied_more_data_life">{errno:10000,errmsg:null,data:[{brandid:147,leshowname:猫眼电影,logo:\"http:s3-cdn.lecloud.com75082367-contacticon82acedc5-4db8-4207-8c6e-264f7c7745a0\",number:4006705335},{brandid:150,leshowname:大麦网,logo:\"http:s3-cdn.lecloud.com75082367-contacticona4413d91-0367-427b-9429-952289ba57f2\",number:4006103721},{brandid:151,leshowname:永乐票务,logo:\"http:s3-cdn.lecloud.com75082367-contacticonbb82fe87-ccbe-433c-8173-58b736c7cca7\",number:4006228228},{brandid:155,leshowname:生日管家,logo:\"http:s3-cdn.lecloud.com75082367-contacticon8b6f6292-5ae6-42c8-a808-88e783dba7a4\",number:4000388080},{brandid:162,leshowname:指尖快递,logo:\"http:s3-cdn.lecloud.com75082367-contacticon1d5db85a-0a3f-44c6-90fd-3b6acd14f540\",number:4001180700}]}</string>
   <string name="classfied_more_data_service">{errno:10000,errmsg:null,data:[{brandid:142,leshowname:乐视客服中心,logo:\"http:s3-cdn.lecloud.com75082367-contacticonc8cb434f-efa7-4eed-933d-0611ee567de1\",number:10109000},{brandid:144,leshowname:当当网,logo:\"http:s3-cdn.lecloud.com75082367-contacticon247cef31-81a0-4276-b7d9-7455cf8674a1\",number:4001066666},{brandid:145,leshowname:京东商城,logo:\"http:s3-cdn.lecloud.com75082367-contacticon1d46c6b4-d9f6-453e-87fa-60291ec85f3d\",number:4006065500},{brandid:153,leshowname:网酒网,logo:\"http:s3-cdn.lecloud.com75082367-contacticon5a11f538-f3d1-49d0-9786-19d2badee504\",number:4000519519}]}</string>
-  <string name="gengduofenlei">More types</string>
+  <string name="gengduofenlei">Więcej typów</string>
   <string name="chaxun">Please check balance</string>
   <string name="leftp">(</string>
   <string name="chenggongzhifu">Paid</string>
-  <string name="zidongdingwei">Auto locate</string>
+  <string name="zidongdingwei">Auto lokalizacja</string>
   <string name="rightp">)</string>
   <string name="yidong">Mobile</string>
   <string name="getflowtext">System will send a free SMS to carrier to check data usage</string>
@@ -132,7 +132,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="title_search_tip">Wyszukaj kontakty</string>
   <string name="badpos">Unable to get location</string>
   <string name="tuangou">Group coupon</string>
-  <string name="nearby">View</string>
+  <string name="nearby">Pokaż</string>
   <string name="beijing">Beijing</string>
   <string name="alert_dialog_send">Wyślij</string>
   <string name="transferfail">Connection failed</string>
@@ -141,7 +141,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="nearbyshort">View nearby</string>
   <string name="djgengduo">Tap to get more</string>
   <string name="fujindecanting">Nearby restaurants</string>
-  <string name="mobileself">Your number</string>
+  <string name="mobileself">Mój numer</string>
   <string name="maybepos">You are</string>
   <string name="yinhangjinrong">Banks</string>
   <string name="lianxiren">Kontakty</string>
@@ -163,7 +163,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="hello_world">Hello world!</string>
   <string name="leshikefu">LeEco customer service</string>
   <string name="rq_fendian">View nearby stores</string>
-  <string name="rq_calllog">Call log</string>
+  <string name="rq_calllog">Historia połączeń</string>
   <string name="charge100">100</string>
   <string name="chezhufuwu">Car service</string>
   <string name="lognow">Login now</string>
@@ -191,7 +191,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="search_label">Yellow Page</string>
   <string name="dingdanhao">Order number</string>
   <string name="chongshi">Ponów</string>
-  <string name="action_settings">Settings</string>
+  <string name="action_settings">Ustawienia</string>
   <string name="zuijinjilu">Recent</string>
   <string name="goodpos">Location found</string>
   <string name="mobilenm">Phone number</string>
@@ -212,7 +212,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="send_success">send successfully</string>
   <string name="quanbuchengshi">all cities</string>
   <string name="nonetwork">No network</string>
-  <string name="settings">Settings</string>
+  <string name="settings">Ustawienia</string>
   <string name="gps_settings">open location service in settings</string>
   <string name="gps_settings_more">open high-accuracy location service in settings</string>
   <string name="flightmode">function available in flight mode</string>
@@ -222,7 +222,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="home_icon">home_icon</string>
   <string name="search_hint2">Find nearby services, shops or brands</string>
   <string name="tuijian">Recommended</string>
-  <string name="qingchu">Clear</string>
+  <string name="qingchu">Usuń</string>
   <string name="sousuojilu">Search history</string>
   <string name="tonghuajilu">Historia połączeń</string>
   <string name="taidixiong">Teddy Bear</string>
@@ -236,7 +236,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="wodeguanzhu">My follows</string>
   <string name="firm_name">Company name:</string>
   <string name="chailvchuxing">Travels</string>
-  <string name="qingchujilu">Clear log</string>
+  <string name="qingchujilu">Wyczyść historię</string>
   <string name="bizhituijian">Popular wallpapers</string>
   <string name="guanfangwangzhan">Official Website</string>
   <string name="guanfangweibo">Official Weibo</string>
@@ -247,7 +247,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="xinjian">New</string>
   <string name="yichulanjie">Remove %s from blacklist and stop blocking its messages and calls</string>
   <string name="xiangguanshipin">Related videos</string>
-  <string name="qingchusuoyoujilu">Clear all records</string>
+  <string name="qingchusuoyoujilu">Wyczyść całą historię</string>
   <string name="server_args_exception">Parameter error</string>
   <string name="no_record">No records</string>
   <string name="from_eui">EUI</string>
@@ -270,7 +270,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="shangmenqujian">Pickup</string>
   <string name="shoujihaoma">13514444444</string>
   <string name="suijiaosuidao">Available on demand</string>
-  <string name="time">19:42 yesterday</string>
+  <string name="time">19:42 wczoraj</string>
   <string name="tonghuashichang">1 min 65 sec</string>
   <string name="tousu">Complaints</string>
   <string name="wangshanggouche">Once vehicle purchase</string>
@@ -289,13 +289,11 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="zanbu">Not now</string>
   <string name="konghao">Dialed number is empty</string>
   <string name="sousuo">搜索</string>
-  <string name="fuzhi">复制</string>
+  <string name="fuzhi">Kopiuj</string>
   <string name="tijiao">Submit</string>
-  <string name="jiucuo">Correct</string>
+  <string name="jiucuo">Poprawny</string>
   <string name="jiucuohaoma">Corrected number</string>
   <string name="xuanzeleixing">Select type</string>
-  <string name="shuoming">Description (required)</string>
-  <string name="lianxifangshi">Contact information (required)</string>
   <string name="sirenhaoma">This is a private number</string>
   <string name="xinxiyouwu">Incorrect phone number and other information</string>
   <string name="tianxiexinxi">Enter information</string>
@@ -308,8 +306,12 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="shezhiwifi">Set Wi-Fi</string>
   <string name="shangjia">Merchant</string>
   <string name="fujin">Nearby</string>
-  <string name="chakangengduo">View more</string>
+  <string name="chakangengduo">Pokaż więcej</string>
   <string name="delete_single_item">Delete this record</string>
+  <string name="bitian">Wymagane</string>
+  <string name="description">Dodatkowe notatki:</string>
+  <string name="contacts">Metoda kontaktu:</string>
+  <string name="private_error_type">This is a private number and the current identification information is incorrect</string>
   <string name="missing_app">未找到处理此操作的应用</string>
   <string name="nearbysearch">Nearby %s</string>
   <string name="phoneAppLabel">Telefon</string>
@@ -372,12 +374,12 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="notification_voicemail_no_vm_number">Nieznany numer poczty głosowej</string>
   <string name="notification_network_selection_title">Brak usługi</string>
   <string name="notification_network_selection_text">Wybrana sieć (%s) jest niedostępna</string>
-  <string name="notification_action_answer">Answer</string>
+  <string name="notification_action_answer">Odpowiedz</string>
   <string name="notification_action_end_call">Rozłącz</string>
   <string name="notification_action_answer_video">Video</string>
-  <string name="notification_action_answer_voice">Voice</string>
-  <string name="notification_action_accept">Accept</string>
-  <string name="notification_action_dismiss">Dismiss</string>
+  <string name="notification_action_answer_voice">Łączenie</string>
+  <string name="notification_action_accept">Akceptuj</string>
+  <string name="notification_action_dismiss">Odrzuć</string>
   <string name="notification_missedCall_call_back">Oddzwoń</string>
   <string name="notification_missedCall_message">Wiadomość</string>
   <string name="incall_error_power_off">Wyłącz tryb samolotowy aby nawiązać połączenie.</string>
@@ -415,7 +417,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="onscreenChangeToVoiceText">Change to voice call</string>
   <string name="onscreenSwitchCameraText">Switch camera</string>
   <string name="onscreenPauseVideoText">Pause video</string>
-  <string name="onscreenOverflowText">More options</string>
+  <string name="onscreenOverflowText">Więcej opcji</string>
   <string name="player_started">Player Started</string>
   <string name="player_stopped">Player Stopped</string>
   <string name="camera_not_ready">Camera not ready</string>
@@ -433,9 +435,9 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="respond_via_sms_custom_message">Write your own...</string>
   <string name="custom_message_cancel">Anuluj</string>
   <string name="custom_message_send">Wyślij</string>
-  <string name="description_target_answer">Answer</string>
-  <string name="description_target_send_sms">Send SMS</string>
-  <string name="description_target_decline">Decline</string>
+  <string name="description_target_answer">Odpowiedz</string>
+  <string name="description_target_send_sms">Wyślij SMS</string>
+  <string name="description_target_decline">Odrzuć</string>
   <string name="description_target_answer_video_call">Answer as video call</string>
   <string name="description_target_answer_audio_call">Answer as audio call</string>
   <string name="description_target_accept_upgrade_to_video_request">Accept video request</string>
@@ -458,7 +460,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="preference_category_ringtone">Dzwonek</string>
   <string name="manageConferenceLabel">Zarządzaj połączeniem konferencyjnym</string>
   <string name="emergency_call_dialog_number_for_display">Numer alarmowy</string>
-  <string name="profile_photo_description">Profile photo</string>
+  <string name="profile_photo_description">Zdjęcie profilowe</string>
   <string name="camera_off_description">Camera off</string>
   <string name="leui_select_account_dialog_title">Select Account</string>
   <string name="sub_1">SUB 1</string>
@@ -520,9 +522,10 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="modify_call_option_vt">VT</string>
   <string name="modify_call_option_vt_rx">Video receiving</string>
   <string name="modify_call_option_vt_tx">Video transmission</string>
-  <string name="notification_action_answer_more">More</string>
+  <string name="notification_action_answer_more">Więcej</string>
   <string name="onscreenAddParticipant">Add participant</string>
   <string name="video_call_not_allowed_if_tty_enabled">Please disable the TTY mode to upgrade video calls</string>
+  <string name="call_button_fragment_contacts_button">Kontakt</string>
   <string name="dialpad_0_number">0</string>
   <string name="dialpad_1_number">1</string>
   <string name="dialpad_2_number">2</string>
@@ -547,7 +550,7 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="dialpad_9_letters">WXYZ</string>
   <string name="dialpad_star_letters"/>
   <string name="dialpad_pound_letters"/>
-  <string name="description_dialpad_overflow">More options</string>
+  <string name="description_dialpad_overflow">Więcej opcji</string>
   <string name="description_delete_button">cofnij</string>
   <string name="description_image_button_plus">plus</string>
   <string name="description_voicemail_button">voicemail</string>
@@ -618,8 +621,8 @@ Would you like to try and reconnect to your Wi-Fi network to finish your call?"<
   <string name="call_log_filter_all_resources">Wszystkie zasoby</string>
   <string name="turn_on_3g_service_message">3G service is off now, would you like to turn it on?</string>
   <string name="associate_sim_missing_message">The %1$s SIM is unavailable. Would you like to place the call via %2$s</string>
-  <string name="associate_sim_missing_other">Other</string>
-  <string name="sim_manage_call_via">Call via</string>
+  <string name="associate_sim_missing_other">Inne</string>
+  <string name="sim_manage_call_via">Dzwoń przez</string>
   <string name="ip_dial_error_toast_for_no_ip_prefix_number">Please enter IP prefix number first in voice call settings.</string>
   <string name="ip_dial_error_toast_for_sip_call_selected">IP dial function is not applicable to internet call.</string>
   <string name="sd_add">Dodaj</string>
@@ -814,14 +817,14 @@ Nie ukończono: %d"</string>
   <string name="international_dialing_add_country_code_default_input_area_code" formatted="false">"It's detected that you're dialing a number in %s. If your destination city is not %s, please enter the area code."</string>
   <string name="international_dialing_need_area_code">The area code of your destination city is needed for the call.</string>
   <string name="international_dialing_input_area_code">Input area code here</string>
-  <string name="international_dialing_dialed_number">Dialing number:</string>
+  <string name="international_dialing_dialed_number">Wybieram numer:</string>
   <string name="international_dialing_confirm_area_code">If your destination city is not %s, please input the area code of your destination city below.</string>
   <string name="international_dialing_dial_with_country_code">Wybierz z numerem kierunkowym kraju</string>
   <string name="international_dialing_click_below_button">Click the button below to change the country code number.</string>
   <string name="international_dialing_yes">Yes. Use number below:</string>
   <string name="international_dialing_no">No. Use original number:</string>
-  <string name="international_dialing_call_button">Call</string>
-  <string name="international_dialing_area_code">area code</string>
+  <string name="international_dialing_call_button">Dzwoń</string>
+  <string name="international_dialing_area_code">numer kierunkowy</string>
   <string name="international_dialing_invalid_number">The number is invalid. Do you want to continue dialing anyway?</string>
   <string name="international_dialing_add_country_code_and_area_code_without_prefix">Do you want to add the country code and the area code?</string>
   <string name="no_search_result">No search result</string>
@@ -872,8 +875,8 @@ To add contacts to your favorites, take the following steps:
   <string name="dialog_phone_call_prohibited_message">Połączenie nie zostało wysłane</string>
   <string name="from_account_format">%1$s</string>
   <string name="recently_added_contacts">Ostatnio dodane kontakty</string>
-  <string name="aggregation_suggestion_edit_dialog_title">Edit selected contact</string>
-  <string name="aggregation_suggestion_join_dialog_title">Merge contacts</string>
+  <string name="aggregation_suggestion_edit_dialog_title">Edytuj wybrany kontakt</string>
+  <string name="aggregation_suggestion_join_dialog_title">Scalanie kontaktów</string>
   <string name="searching_vcard_title">Searching vCard</string>
   <string name="cancel_import_confirmation_title">Cancel vCard import</string>
   <string name="cancel_export_confirmation_title">Cancel vCard export</string>
@@ -1177,6 +1180,7 @@ To add contacts to your favorites, take the following steps:
   <string name="menu_accounts">Konta i synchronizacja</string>
   <string name="menu_import_export">Kopia i przywracanie kontaktów</string>
   <string name="tab_font_family">sans-serif</string>
+  <string name="voicemailtext">sans-serif</string>
   <string name="account_type_lable_eas_gmail">Gmail</string>
   <string name="account_type_lable_eas_qq">QQ</string>
   <string name="editGroupDescription">Edytuj grupę</string>
@@ -1189,7 +1193,7 @@ To add contacts to your favorites, take the following steps:
   <string name="settings_contact_display_options_title">Opcje wyświetlania kontaktów</string>
   <string name="select_account_dialog_title">Select Account</string>
   <string name="set_default_account">Always use this for calls</string>
-  <string name="select_phone_account_for_calls">Call with</string>
+  <string name="select_phone_account_for_calls">Dzwoń</string>
   <string name="savegroup">Zapisywanie</string>
   <string name="account_type_lable">% kontakty</string>
   <string name="listTotalPhoneContactsZero">Bez kontaktów z numerami telefonu</string>
@@ -1202,7 +1206,7 @@ To add contacts to your favorites, take the following steps:
   <string name="move_from_blacklist">Odblokuj</string>
   <string name="quickcontact_delete_contact">Usuń kontakt.</string>
   <string name="quickcontact_delete_calllog">Usuń historię połączeń</string>
-  <string name="show_contacts_label">Contacts to display</string>
+  <string name="show_contacts_label">Kontakty do wyświetlenia</string>
   <string name="too_length">Maximum text limitation exceeded</string>
   <string name="contactsDeletedFail">Delete contacts failed</string>
   <string name="add_one_contact_to_group_tip">Move contact to this group</string>
@@ -1257,21 +1261,21 @@ To add contacts to your favorites, take the following steps:
   <string name="dialog_create_group_account">Wybierz lokalizację zapisu</string>
   <string name="local_account_add_contact_label">Urządzenie</string>
   <string name="contact_editor_bottom_sheet_cancel">Anuluj</string>
-  <string name="le_dialpad_select_sim_card">Select SIM card</string>
-  <string name="le_dialpad_select_sim_card_cancel">Cancel</string>
+  <string name="le_dialpad_select_sim_card">Wybierz kartę SIM</string>
+  <string name="le_dialpad_select_sim_card_cancel">Anuluj</string>
   <string name="delete_contact">Delete %s</string>
   <string name="le_intelligent_recommendation">Smart recommendations</string>
   <string name="le_add_contact_to_frequent">Tap the contact to add to favorites</string>
-  <string name="le_add_to_frequent">Add to favorites</string>
+  <string name="le_add_to_frequent">Dodaj do ulubionych</string>
   <string name="le_remove_from_frequent">Remove from favorites</string>
-  <string name="le_more_operation">More</string>
-  <string name="le_contact_list_edit">Edit</string>
-  <string name="le_contact_list_filter">Filter</string>
-  <string name="mygroup_display_name">My group</string>
+  <string name="le_more_operation">Więcej</string>
+  <string name="le_contact_list_edit">Edytuj</string>
+  <string name="le_contact_list_filter">Filtruj</string>
+  <string name="mygroup_display_name">Moje grupy</string>
   <string name="mygroup_contacts_list_header">Group</string>
-  <string name="my_contacts_label">My contacts</string>
-  <string name="contacts_count">%s contacts</string>
-  <string name="contacts_count_one">%s contact</string>
+  <string name="my_contacts_label">Moje kontakty</string>
+  <string name="contacts_count">%s kontakty</string>
+  <string name="contacts_count_one">%s kontakt</string>
   <string name="description_null_space">Wymaż</string>
   <string name="call_log_empty_gecode">-</string>
   <string name="number_attribution">Lokalizacja numeru telefonu</string>
@@ -1341,6 +1345,8 @@ To add contacts to your favorites, take the following steps:
   <string name="voicemail_speed_normal">Normalnie</string>
   <string name="voicemail_speed_faster">Szybko</string>
   <string name="voicemail_speed_fastest">Najszybciej</string>
+  <string name="delete_voicemail">Usuwanie poczty głosowej</string>
+  <string name="delete_voicemail_cancel">Anuluj</string>
   <string name="call_log_item_count_and_date">(%1$d) %2$s</string>
   <string name="sms_disambig_title">Wyślij SMS przy użyciu</string>
   <string name="call_disambig_title">Zadzwoń przy użyciu</string>
@@ -1447,7 +1453,7 @@ To add contacts to your favorites, take the following steps:
   <string name="speed_dial_empty">"Używając szybkiego wybierania,
 możesz jednym dotknięciem dzwonić
 do ulubionych kontaktów i pod często wybierane numery."</string>
-  <string name="speed_dial_empty_add_favorite_action">Add a favorite</string>
+  <string name="speed_dial_empty_add_favorite_action">Dodaj do ulubionych</string>
   <string name="no_favorites">"Your stared and most frequent
 contacts will appear here.
 Start calling contacts whenever you’re ready!"</string>
@@ -1529,7 +1535,7 @@ Start calling contacts whenever you’re ready!"</string>
   <string name="choice_from_contacts">Wybierz z kontaktów</string>
   <string name="speed_dial_cancel">Anuluj</string>
   <string name="search_settings_description">Imiona i nazwiska oraz nazwy w Twoich kontaktach</string>
-  <string name="le_copy_phone_number">Copy number</string>
+  <string name="le_copy_phone_number">Kopiuj numer</string>
   <string name="delete_this_group_calllog">Usuń historię połączeń</string>
   <string name="batch_delete_calllog">Zbiorcze usuwanie rekordów połączeń</string>
   <string name="sar">SAR</string>
@@ -1554,19 +1560,15 @@ Start calling contacts whenever you’re ready!"</string>
   <string name="keypad_star_longpress_change_tip_title">Przełącz klawiaturę</string>
   <string name="keypad_search_handle_tip_title">Wyszukiwanie kontaktów</string>
   <string name="speed_dial_number_too_long">Max number limitation exceeded.</string>
-  <string name="alert_dialog_copy_imei">Copy</string>
-  <string name="alert_dialog_copy_imei_succ">Copied</string>
+  <string name="alert_dialog_copy_imei">Kopiuj</string>
+  <string name="alert_dialog_copy_imei_succ">Skopiowano</string>
   <string name="number_block_tip_title">Intercepted</string>
   <string name="keypad_input_extra_limited">Number of entered characters has exceeded the length limit</string>
   <string name="dialpad_clipboard_no_number_available">The clipboard contains no number</string>
   <string name="keypad_paste_button_tip">Tap to paste the copied number</string>
   <string name="keypad_paste_button_tip_title">Paste number</string>
-  <item name="APKTOOL_DUMMY_201" type="string">false</item>
-  <item name="APKTOOL_DUMMY_202" type="string">false</item>
-  <item name="APKTOOL_DUMMY_203" type="string">false</item>
-  <item name="APKTOOL_DUMMY_204" type="string">false</item>
-  <item name="APKTOOL_DUMMY_205" type="string">false</item>
-  <item name="APKTOOL_DUMMY_206" type="string">false</item>
+  <string name="emergency_call">"Emergency
+call"</string>
   <item name="APKTOOL_DUMMY_207" type="string">false</item>
   <item name="APKTOOL_DUMMY_208" type="string">false</item>
   <item name="APKTOOL_DUMMY_209" type="string">false</item>
@@ -1576,11 +1578,17 @@ Start calling contacts whenever you’re ready!"</string>
   <item name="APKTOOL_DUMMY_20d" type="string">false</item>
   <item name="APKTOOL_DUMMY_20e" type="string">false</item>
   <item name="APKTOOL_DUMMY_20f" type="string">false</item>
-  <item name="APKTOOL_DUMMY_4e9" type="string">false</item>
-  <item name="APKTOOL_DUMMY_4ea" type="string">false</item>
-  <item name="APKTOOL_DUMMY_606" type="string">false</item>
-  <item name="APKTOOL_DUMMY_607" type="string">false</item>
-  <item name="APKTOOL_DUMMY_608" type="string">false</item>
-  <item name="APKTOOL_DUMMY_609" type="string">false</item>
-  <item name="APKTOOL_DUMMY_60a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_210" type="string">false</item>
+  <item name="APKTOOL_DUMMY_211" type="string">false</item>
+  <item name="APKTOOL_DUMMY_212" type="string">false</item>
+  <item name="APKTOOL_DUMMY_213" type="string">false</item>
+  <item name="APKTOOL_DUMMY_214" type="string">false</item>
+  <item name="APKTOOL_DUMMY_215" type="string">false</item>
+  <item name="APKTOOL_DUMMY_4f1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_4f2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_611" type="string">false</item>
+  <item name="APKTOOL_DUMMY_612" type="string">false</item>
+  <item name="APKTOOL_DUMMY_613" type="string">false</item>
+  <item name="APKTOOL_DUMMY_614" type="string">false</item>
+  <item name="APKTOOL_DUMMY_615" type="string">false</item>
 </resources>

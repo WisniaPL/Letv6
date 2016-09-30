@@ -8,15 +8,15 @@
   </array>
   <string-array name="mtk_incoming_call_widget_video_without_sms_audio_target_descriptions">
     <item>@string/description_target_answer_video_call</item>
-    <item>@null</item>
-    <item>@string/description_target_decline</item>
-    <item>@null</item>
+    <item>@string/description_target_answer_video_call</item>
+    <item>@string/description_target_answer_video_call</item>
+    <item>@string/description_target_answer_video_call</item>
   </string-array>
   <string-array name="mtk_incoming_call_widget_video_without_sms_audio_direction_descriptions">
     <item>@string/description_direction_right</item>
-    <item>@null</item>
-    <item>@string/description_direction_left</item>
-    <item>@null</item>
+    <item>@string/description_direction_right</item>
+    <item>@string/description_direction_right</item>
+    <item>@string/description_direction_right</item>
   </string-array>
   <string-array name="fee">
     <item>CNY 10 (sold at CNY 9.5)</item>
@@ -498,9 +498,9 @@
   </string-array>
   <string-array name="incoming_call_widget_video_request_target_direction_descriptions">
     <item>@string/description_direction_right</item>
-    <item>@null</item>
-    <item>@string/description_direction_left</item>
-    <item>@null</item>
+    <item>@string/description_direction_right</item>
+    <item>@string/description_direction_right</item>
+    <item>@string/description_direction_right</item>
   </string-array>
   <array name="sim_icons">
     <item>@drawable/ic_sim_icon_1</item>
@@ -546,7 +546,7 @@
     <item>Marketing</item>
     <item>Delivery</item>
     <item>Mail</item>
-    <item>Custom</item>
+    <item>Inny</item>
   </string-array>
   <string-array name="labelOrders">
     <item>a</item>
@@ -562,7 +562,7 @@
     <item>Marketing</item>
     <item>Delivery</item>
     <item>Express</item>
-    <item>Custom</item>
+    <item>Inny</item>
   </string-array>
   <string-array name="blackItmes">
     <item>Blokowanie połączeń i wiadomości</item>
@@ -618,11 +618,15 @@
     <item>Połączenia karty SIM2</item>
   </string-array>
   <string-array name="filter_calllog_list_with_hometime">
-    <item>All</item>
-    <item>Missed</item>
-    <item>SIM1 calls</item>
-    <item>SIM2 calls</item>
+    <item>Wszystko</item>
+    <item>Nieodebrane</item>
+    <item>Połączenia SIM1</item>
+    <item>Połączenia SIM2</item>
     <item>HomeTime</item>
   </string-array>
-  <item name="APKTOOL_DUMMY_28" type="array">false</item>
+  <string-array name="dialer_setting_more_options">
+    <item>Wklej numer ze schowka</item>
+    <item>Settings</item>
+  </string-array>
+  <item name="APKTOOL_DUMMY_29" type="array">false</item>
 </resources>
