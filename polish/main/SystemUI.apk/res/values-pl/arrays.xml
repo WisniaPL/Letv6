@@ -105,6 +105,7 @@
     <item>drawable/stat_sys_sim_damaged</item>
     <item>drawable/stat_sys_sim_damaged</item>
   </string-array>
+  <item name="APKTOOL_DUMMY_000d" type="array">false</item>
   <string-array name="lockscreen_num_pad_klondike">
     <item>+</item>
     <item/>
@@ -143,5 +144,4 @@
     <item>Lis</item>
     <item>Gru</item>
   </string-array>
-  <item name="APKTOOL_DUMMY_d" type="array">false</item>
 </resources>
